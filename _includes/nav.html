@@ -7,9 +7,28 @@
                 {% for item in site.data.menus.header  %}
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                </li>
                 {% endfor %}
+                </li>
+                <li>
+                {% assign versions = site.pages | where: "ref", page.ref | sort: 'lang'%}
+                {% if versions.size> 1%}
+                    {% for version in versions%}
+                        {% if version.lang != page.lang%}
+                            <a href="{{ version.url }}" class=" ">{{ site.data.i18n[version.lang].read_it_in] }} {{ site.data.i18n[version.lang].icon }} </a>
+                        {% endif%}
+                    {% endfor%}
+                {% endif%}
+                </li>
             </ul>
         </div>
     </div>
 </nav>
+<!--
+{% assign versions = site.pages | where: "ref", page.ref | sort: 'lang'%}
+                {% if versions.size> 1%}
+                    {% for version in versions%}
+                        {% if version.lang != page.lang%}
+                            <a href="{{ version.url }}" class="nav-link js-scroll-trigger {{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in] }} {{ site.data.i18n[version.lang].icon }} </a>
+                        {% endif%}
+                    {% endfor%}
+                {% endif%}--->

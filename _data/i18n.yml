@@ -1,0 +1,8 @@
+in:
+  label: English
+  icon: 🇬🇧
+ # read_it_in: "Read it in"
+it is:
+  label: Russian
+  icon: 🇷🇺
+ # read_it_in: "Read it on"

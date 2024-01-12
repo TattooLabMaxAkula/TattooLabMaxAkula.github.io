@@ -1,9 +1,9 @@
 ---
 layout: home
-lang: in
+lang: it is
 ref: land
 header:
-  title: Painful. Expensive. Forever.
+  title: Долго. Больно. Дорого.
   text: >
     Cheers Love Get Inked With Us.
   action: # action button is optional
