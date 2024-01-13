@@ -183,9 +183,18 @@ address {
   line-height: inherit;
 }
 
+.li-masters {
+  background: url('../img/blood.png') no-repeat left top; /* <-- change `left` & `top` too for extra control */
+  padding: 1px 0px 10px 35px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 4;
+}
+
 ol,
 ul {
   padding-left: 2rem;
+/*  list-style-image: url('../img/blood.png') */
 }
 
 ol,
@@ -10853,6 +10862,14 @@ body {
 
 .page-section-contacts {
   padding: 4rem 0;
+}
+
+.page-section-members {
+  padding: 1rem 0;
+}
+
+.page-section-master {
+  padding: 1rem 0;
 }
 
 .text-white-75 {

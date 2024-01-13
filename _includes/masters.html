@@ -1,0 +1,18 @@
+<section class="page-section-masters {{ section.background_style }}" {% if section.background_image %} style="background-image: {{ section.background_image }}"{% endif %} id="{{ section.section_id }}">
+    <div class="container px-1 px-lg-1 pb-3">
+        <div class="row justify-content-left">
+            <div class="col-lg-5 align-self-end ">
+                <img src="assets/img/studio9.jpg" class="img-fluid" />
+            </div>
+            <div class="col-lg-7 align-self-baseline">
+                <ul class=" mb-0">
+                {% for point in section.actions %}
+                    <li class="li-masters">{{ point.point }}</li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+
+
+</section>

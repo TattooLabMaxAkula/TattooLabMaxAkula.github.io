@@ -14,7 +14,8 @@ header:
 sections:
   - type: services.html
     section_id: services
-    background_style: bg-img-orange
+    background_style: bg-dark
+    background_image: url('assets/img/orange.jpg')
     title: At Your Service (services.html)
     services:
       - title: Sturdy Templates
@@ -36,6 +37,33 @@ sections:
  #     - title: Other 2
  #       text: Some not-so long text here.
  #       icon: bi-emoji-sunglasses-fill
+
+  - type: members.html
+    section_id: members
+ #  title: Our Crew! (members.html)
+    background_image: url('assets/img/black.jpg')
+    background_style: bg-dark text-white
+    members:
+      - title: Christina M. Aponte
+        text: Singer and Songwriter
+        image: assets/img/members/person1.jpg
+        url: 'links.html'
+      - title: Gary D. Stevens
+        text: Bass guitar.
+        image: assets/img/members/person2.jpg
+        url: '#'
+  
+  - type: masters.html
+    section_id: masters
+    background_image: url('assets/img/black.jpg')
+    background_style: text-white
+    actions:
+      - point: Макс и Акула,художники,основавшие ТатуЛабораторию,стояли у истоков профессиональной татуировки в Алматы.
+      - point: Первую тату,выполнили в 1991 году. С тех пор совершенствуем искусство художественной татуировки.
+      - point: В 1998 году основали студию "Tattoolab Maks & Akula" в Гоа.
+      - point: Работали в Голландии и Англии, активно обмениваясь опытом с лушими мастерами мира, такими как Junior (Germany), Marco Fantony (Italy), Taku Oshima (Japan), Tony Loman (Holland), Henk Shifmaher (Holland), Amar (Holland), Bernie Luther (Ausria), Filip Leu (Switzerland).
+      - point: Участвовали и побеждали в тату конвенциях в Малазии, России, Голландии, Англии, Непале, Германии, Индии и имеем серию наград.
+      - point: По сей день творим искусство рука об руку, теперь в родном городе - Алматы.
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
@@ -77,37 +105,6 @@ sections:
       - title: Download Now!
         url: https://startbootstrap.com/themes/creative/
         class: btn-light
-
-  - type: members.html
-    section_id: members
-    title: Our Crew! (members.html)
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      # - title: Devon J. Fletcher
-      #   text: Lead guitar.
-      #   image: assets/img/members/person3.jpg
-      #   url: '#'
-      # - title: Todd E. Anderson
-      #   text: Drums, percussion.
-      #   image: assets/img/members/person5.jpg
-      #   url: '#'
-      # - title: Daniel T. Riley
-      #   text: Musician, songwriter, producer.
-      #   image: assets/img/members/person6.jpg
-      #   url: '#'
-      # - title: Ella P. Walter
-      #   text: PR.
-      #   image: assets/img/members/person7.jpg
-      #   url: '#'
-
   - type: timeline.html
     section_id: timeline
     title: Major Achievements! (timeline.html)
