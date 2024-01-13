@@ -25,6 +25,7 @@ sections:
     text: >
       +1 (202) 555-014<br/>
       +1 (202) 555-015
+      
 - type: paragraph.html
   section_id: help
   title: Get some help!
@@ -41,7 +42,7 @@ sections:
   section_id: more-to-come
   title: No HTML!
 #  background_style: bg-info
-#  text_style: text-left text-white
+ # text_style: text-left 
   actions:
    - title: Markdown is fun!
      class: btn-info

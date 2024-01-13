@@ -1,4 +1,4 @@
-<section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
+<section id="{{ section.section_id }}" class="page-section-contacts {{ section.background_style }}">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-lg-8 col-xl-6 text-center">
@@ -14,15 +14,20 @@
       <div class="col-lg-4 col-xl-3  ml-auto">
         <ul class="icons bulleted" >
             <li class="icon bi bi-geo-alt-fill">
-                <h2 class="mt-0">{{ section.address.title }}</h2>
+                <h3 class="mt-0">{{ section.address.title }}</h3>
                 <p>{{ section.address.text }}</p>
-                <br/>
             </li>
             <li class="icon bi bi-telephone-fill">
-                <h2 class="mt-0">{{ section.phone.title }}</h2>
+                <h3 class="mt-0">{{ section.phone.title }}</h3>
                 <p>{{ section.phone.text }}</p>
-                <br/>
             </li>
+            <li class="icon bi bi-facebook">
+              <h3 class="mt-0">{{ section.facebook.title }}</h3>
+              <p>{{ section.facebook.text }}</p>
+              <li class="icon bi bi-instagram">
+                <h3 class="mt-0">{{ section.instagram.title }}</h3>
+                <p>{{ section.instagram.text }}</p>
+          </li>
         </ul>
       </div>
     </div>

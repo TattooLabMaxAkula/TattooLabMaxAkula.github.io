@@ -12,16 +12,6 @@ header:
 
 
 sections:
-  - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: Get in touch! (call-to-action.html)
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
-
   - type: services.html
     section_id: services
     background_style: bg-img-orange
@@ -101,22 +91,22 @@ sections:
         text: Bass guitar.
         image: assets/img/members/person2.jpg
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
+      # - title: Devon J. Fletcher
+      #   text: Lead guitar.
+      #   image: assets/img/members/person3.jpg
+      #   url: '#'
+      # - title: Todd E. Anderson
+      #   text: Drums, percussion.
+      #   image: assets/img/members/person5.jpg
+      #   url: '#'
+      # - title: Daniel T. Riley
+      #   text: Musician, songwriter, producer.
+      #   image: assets/img/members/person6.jpg
+      #   url: '#'
+      # - title: Ella P. Walter
+      #   text: PR.
+      #   image: assets/img/members/person7.jpg
+      #   url: '#'
 
   - type: timeline.html
     section_id: timeline
@@ -139,6 +129,16 @@ sections:
           We started to gather like minded people and started our stategies
           and future plans to them. As a result , interested people joined us!
 
+  - type: call-to-action.html
+    section_id: about
+    background_style: bg-primary
+    title: Get in touch! (call-to-action.html)
+    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    actions:
+      - title: Get Started!
+        url: '#page-top'
+        class: btn-light
+
   - type: contact.html
     section_id: contacts
     background_style: bg-img-skull text-primary
@@ -147,16 +147,45 @@ sections:
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: +1 (202) 555-014
-      icon: bi-telephone-fill
-    - title: E-Mail
-      icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
+    - title: Download Now!
+      url: https://startbootstrap.com/themes/creative/
+      class: btn-primary
+#    actions:
+#    - title: +1 (202) 555-014
+#      icon: bi-telephone-fill
+#    - title: E-Mail
+#      icon: bi-envelope-fill
+#      url: mailto:contact@yourwebsite.com
  #   - title: Twitter
  #     icon: bi-twitter
  #     url: '#'
-    - title: Facebook
-      icon: bi-facebook
-      url: '#'
+ #   - title: Facebook
+ #     icon: bi-facebook
+ #     url: '#'
 
+  - type: address.html
+    section_id: address
+    title: Our contacts
+    text: Walk-ins are welcome!
+    map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.1784803899586!2d-71.56614568458906!3d42.338717979188324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6335220b7c08850a!2sMarlborough%20District%20Court!5e0!3m2!1sen!2sbg!4v1583193778570!5m2!1sen!2sbg
+    address:
+      title: Address
+      text: >
+        45 Williams St,<br/>
+        Marlborough, MA 01752,<br/>
+        United States
+    phone:
+      title: Phones
+      text: >
+        +1 (202) 555-014<br/>
+        +1 (202) 555-015
+    facebook:
+      title: Facebook
+      text: >
+        facebook.com
+    instagram:
+      title: Instagram
+      text: >
+        Instagram profile
+        
 ---
