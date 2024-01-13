@@ -8151,6 +8151,12 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-img-skull {
+  background: url("../img/body.jpg");
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+}
+
 .bg-warning {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
@@ -10843,6 +10849,10 @@ body {
 
 .page-section {
   padding: 8rem 0;
+}
+
+.page-section-contacts {
+  padding: 4rem 0;
 }
 
 .text-white-75 {

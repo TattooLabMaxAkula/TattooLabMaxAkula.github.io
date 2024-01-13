@@ -7,7 +7,7 @@ header:
   text: >
     Cheers Love Get Inked With Us.
   action: # action button is optional
-    label: Find Out More
+    label: Contact us
     url: '#about'
 
 
@@ -15,7 +15,7 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need! (call-to-action.html)
+    title: Get in touch! (call-to-action.html)
     text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
     actions:
       - title: Get Started!
@@ -141,6 +141,7 @@ sections:
 
   - type: contact.html
     section_id: contacts
+    background_style: bg-img-skull text-primary
     title: Let's Get In Touch! (contact.html)
     text: >-
       Ready to start your next project with us? Give us a call or send us an email
@@ -151,9 +152,9 @@ sections:
     - title: E-Mail
       icon: bi-envelope-fill
       url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
-      url: '#'
+ #   - title: Twitter
+ #     icon: bi-twitter
+ #     url: '#'
     - title: Facebook
       icon: bi-facebook
       url: '#'

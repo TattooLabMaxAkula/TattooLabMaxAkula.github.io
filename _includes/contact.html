@@ -1,4 +1,4 @@
-<section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
+<section id="{{ section.section_id }}" class="page-section-contacts {{ section.background_style }}">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-lg-8 col-xl-6 text-center">
@@ -7,13 +7,77 @@
       <p class="text-muted mb-5">{{ section.text }}</p>
     </div>
     </div>
-    <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-      {% for action in section.actions %}
-      <div class="col ml-auto text-center">
-        <i class="fs-1 {{ action.icon }} mb-3 text-muted"></i>
-        <a class="d-block" href="{{ action.url }}">{{ action.title }}</a>
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-sm-6">
+      <form id="contact-form" name="contact-form" action="" method="POST">
+        <!--Grid row-->
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <input type="text" id="name" name="name" class="form-control">
+                    <label for="name" class="">Your name</label>
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <input type="text" id="email" name="email" class="form-control">
+                    <label for="email" class="">Your email</label>
+                </div>
+            </div>
+            <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="md-form mb-0">
+                    <input type="text" id="subject" name="subject" class="form-control">
+                    <label for="subject" class="">Subject</label>
+                </div>
+            </div>
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12">
+
+                <div class="md-form">
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                    <label for="message">Your message</label>
+                </div>
+
+            </div>
+        </div>
+        <!--Grid row-->
+
+      </form>
+<!-- ACTION BUTTON -->
+      <div class="col md-auto text-center">
+        <a class="btn btn-xl js-scroll-trigger btn-primary">Submit</a>
       </div>
-      {% endfor %}
+ 
+      </div>
+      <div class="col-md-2 gx-1 gx-lg-3 justify-content-center mb-3">
+        <!--CONTACTS-->
+      <ul class="list-unstyled mb-0">
+        {% for action in section.actions %}
+        <li>
+          <i class="fs-3 {{ action.icon }} mb-0 text-muted"></i>
+          <a class="d-block" href="{{ action.url }}">{{ action.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
     </div>
   </div>
 </section>
