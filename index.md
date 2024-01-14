@@ -68,34 +68,84 @@ sections:
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
-    #background_style: bg-dark
+    background_style: bg-dark text-dark
+    background_image: url('assets/img/orange-2.jpg')
+    title: Portfolio
     projects:
-      - title: Project 1 (portfolio.html)
+      - title: Project 1 
         text: This is a very short project description.
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
+        icon: zheka2.jpg
         url: '#'
       - title: Project 2
         text: This is a very short project description.
-        icon: 2.jpg
+        icon: skull2-min-768x548.jpg
         url: '#'
       - title: Project 3
         text: This is a very short project description.
-        icon: 3.jpg
+        icon: hanyamasktattooalexshimray.jpg1-min.jpg
         url: '#'
       - title: Project 4
         text: This is a very short project description.
-        icon: 4.jpg
+        icon: ganesh.jpg1-min.jpg
         url: '#'
       - title: Project 5
         text: This is a very short project description.
-        icon: 5.jpg
+        icon: elcov.jpg
         url: '#'
       - title: Project 6
         text: This is a very short project description.
-        icon: 6.jpg
+        icon: Zhenya-CoiFishTattoo.jpg
+        url: '#'
+      - title: Project 21
+        text: This is a very short project description.
+        icon: YelcovDragonSleeveTattooUnited-1.jpg
+        url: '#'
+      - title: Project 32
+        text: This is a very short project description.
+        icon: Wave-Sleeve-1.jpg
+        url: '#'
+      - title: Project 42
+        text: This is a very short project description.
+        icon: UraMaya-Tattoo.jpg
+        url: '#'
+      - title: Project 51
+        text: This is a very short project description.
+        icon: TibetanTigerTattoo-768x785.jpg
+        url: '#'
+      - title: Project 61
+        text: This is a very short project description.
+        icon: TattooLaboratory-001.jpg
+        url: '#'
+      - title: Project 6
+        text: This is a very short project description.
+        icon: TattooGena-040.jpg
+        url: '#'
+      - title: Project 21
+        text: This is a very short project description.
+        icon: TattooGena-040-min-1024x801.jpg
+        url: '#'
+      - title: Project 32
+        text: This is a very short project description.
+        icon: SwedTattoo-217x300.jpg
+        url: '#'
+      - title: Project 42
+        text: This is a very short project description.
+        icon: StrelecTattoo-768x488.jpg
+        url: '#'
+      - title: Project 51
+        text: This is a very short project description.
+        icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
+        url: '#'
+      - title: Project 61
+        text: This is a very short project description.
+        icon: ScullCrowTattoo.jpg
+        url: '#'
+      - title: Project 51
+        text: This is a very short project description.
+        icon: ScullB-225x300.jpg
         url: '#'
 
   - type: aside.html
