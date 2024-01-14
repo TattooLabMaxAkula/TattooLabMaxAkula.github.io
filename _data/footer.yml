@@ -1,5 +1,14 @@
 copyright: '&copy; Start Bootstrap'
 links:
-  - text: Creative
-    url: 'https://startbootstrap.com/themes/creative/'
-    new_window: true
+  - text: Studio
+    url: '#'
+    new_window: false
+  - text: Masters
+    url: '#'
+    new_window: false
+  - text: Portfolio
+    url: '#'
+    new_window: false
+  - text: Contacts
+    url: '#'
+    new_window: false

@@ -10,7 +10,6 @@ header:
     label: Contact us
     url: '#about'
 
-
 sections:
   - type: services.html
     section_id: services
@@ -148,69 +147,85 @@ sections:
         icon: ScullB-225x300.jpg
         url: '#'
 
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap! (aside.html)
+  - type: call-to-action.html
+    section_id: get_contacts
+#    background_image: url('assets/img/dragon.jpg')
+    background_style: bg-dark
+    title: Wonder to know the price?
+    text: Consult our masters online!
     actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
+      - title: Contact us!
+        url: '#contacts'
+        class: btn-primary
+
+
 
  # - type: carousel_code.html
  #   section_id: carousel
 
-  - type: timeline.html
-    section_id: timeline
-    title: Roadmap of our communication
-    background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
-    actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          Design
-        text: >-
-          Conception, ideas
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          Price estimation
-        text: >-
-          Prepaid
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          Sketching
-        text: >-
-          with your comments
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          Inking
-        text: >-
-          One or several sessions
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          Pay
-        text: >-
-          per hour
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          Healing
-        text: >-
-          with our care
-      - image: assets/img/portfolio/thumbnails/1.jpg
+  # - type: timeline.html
+  #   section_id: timeline
+  #   background_image: url('assets/img/black.jpg')
+  #   title: Roadmap of our communication
+  #   background_style: bg-dark text-primary
+  #   last_image: assets/img/timeline-end.png
+  #   actions:
+  #     - image: assets/img/portfolio/thumbnails/1.jpg
+  #       title: >+
+  #         Design
+  #       text: >-
+  #         Conception, ideas
+  #     - image: assets/img/portfolio/thumbnails/2.jpg
+  #       title: >+
+  #         Price estimation
+  #       text: >-
+  #         Prepaid
+  #     - image: assets/img/portfolio/thumbnails/1.jpg
+  #       title: >+
+  #         Sketching
+  #       text: >-
+  #         with your comments
+  #     - image: assets/img/portfolio/thumbnails/2.jpg
+  #       title: >+
+  #         Inking
+  #       text: >-
+  #         One or several sessions
+  #     - image: assets/img/portfolio/thumbnails/1.jpg
+  #       title: >+
+  #         Pay
+  #       text: >-
+  #         per hour
+  #     - image: assets/img/portfolio/thumbnails/2.jpg
+  #       title: >+
+  #         Healing
+  #       text: >-
+  #         with our care
+
+  - type: accordion.html
+    section_id: faq 
+    background_image: url('assets/img/hand.jpg')
+    title: FAQ
+    text: Lorem Ipsum
+    questions:
+      - question: this is item 1
+        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      - question: this is item 2
+        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
   - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: Get in touch! (call-to-action.html)
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
+    section_id: get_tattoed
+    background_style: bg-danger
+    title: KEEP THE WORLD BEAUTIFUL
+    text: Get Tattooed
+  #   actions:
+  #     - title: Download Now!
+  #       url: https://startbootstrap.com/themes/creative/
+  #       class: btn-light
 
   - type: contact.html
     section_id: contacts
     background_style: bg-img-skull text-primary
-    title: Let's Get In Touch! (contact.html)
+    title: Let's Get In Touch!
     text: >-
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
@@ -233,6 +248,7 @@ sections:
 
   - type: address.html
     section_id: address
+    background_style: bg-dark text-primary
     title: Our contacts
     text: Walk-ins are welcome!
     map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.1784803899586!2d-71.56614568458906!3d42.338717979188324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6335220b7c08850a!2sMarlborough%20District%20Court!5e0!3m2!1sen!2sbg!4v1583193778570!5m2!1sen!2sbg
