@@ -155,26 +155,47 @@ sections:
       - title: Download Now!
         url: https://startbootstrap.com/themes/creative/
         class: btn-light
+
+ # - type: carousel_code.html
+ #   section_id: carousel
+
   - type: timeline.html
     section_id: timeline
-    title: Major Achievements! (timeline.html)
+    title: Roadmap of our communication
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          Design
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
+          Conception, ideas
       - image: assets/img/portfolio/thumbnails/2.jpg
         title: >+
-          November 2019
-          An Coaching started
+          Price estimation
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          Prepaid
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: >+
+          Sketching
+        text: >-
+          with your comments
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          Inking
+        text: >-
+          One or several sessions
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: >+
+          Pay
+        text: >-
+          per hour
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          Healing
+        text: >-
+          with our care
+      - image: assets/img/portfolio/thumbnails/1.jpg
 
   - type: call-to-action.html
     section_id: about
