@@ -24,7 +24,7 @@ carousels:
 sections:
   - type: services.html
     section_id: services
-    background_style: bg-dark
+   # background_style: bg-dark
     background_image: url('assets/img/orange.jpg')
     title: At Your Service (services.html)
     services:
@@ -178,43 +178,41 @@ sections:
     title: Feedback from our clients
   #  text: Some optional text here
 
-  # - type: timeline.html
-  #   section_id: timeline
-  #   background_image: url('assets/img/black.jpg')
-  #   title: Roadmap of our communication
-  #   background_style: bg-dark text-primary
+  - type: timeline-red.html
+    section_id: timeline
+#    background_image: url('assets/img/black.jpg')
+    title: Roadmap of our communication
+    background_style: bg-dark text-primary
   #   last_image: assets/img/timeline-end.png
-  #   actions:
-  #     - image: assets/img/portfolio/thumbnails/1.jpg
-  #       title: >+
-  #         Design
-  #       text: >-
-  #         Conception, ideas
-  #     - image: assets/img/portfolio/thumbnails/2.jpg
-  #       title: >+
-  #         Price estimation
-  #       text: >-
-  #         Prepaid
-  #     - image: assets/img/portfolio/thumbnails/1.jpg
-  #       title: >+
-  #         Sketching
-  #       text: >-
-  #         with your comments
-  #     - image: assets/img/portfolio/thumbnails/2.jpg
-  #       title: >+
-  #         Inking
-  #       text: >-
-  #         One or several sessions
-  #     - image: assets/img/portfolio/thumbnails/1.jpg
-  #       title: >+
-  #         Pay
-  #       text: >-
-  #         per hour
-  #     - image: assets/img/portfolio/thumbnails/2.jpg
-  #       title: >+
-  #         Healing
-  #       text: >-
-  #         with our care
+    actions:
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: Design
+        text:  We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          Price estimation
+        text: >-
+          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: >+
+          Sketching
+        text: >-
+          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          Inking
+        text: >-
+          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: >+
+          Pay
+        text: >-
+          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          Healing
+        text: >-
+          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
 
   - type: accordion.html
     section_id: faq 
