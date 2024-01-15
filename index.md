@@ -161,7 +161,7 @@ sections:
   - type: call-to-action.html
     section_id: get_contacts
 #    background_image: url('assets/img/dragon.jpg')
-    background_style: bg-dark
+    background_style: bg-dark text-white
     title: Wonder to know the price?
     text: Consult our masters online!
     actions:
@@ -174,9 +174,9 @@ sections:
   - type: carousel.html
     section_id: carousel
     background_image: url('assets/img/dragon.jpg')
-    background_style: bg-dark 
+    background_style: bg-dark  text-white
     title: Feedback from our clients
-    text: Some optional text here
+  #  text: Some optional text here
 
   # - type: timeline.html
   #   section_id: timeline

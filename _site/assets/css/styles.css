@@ -5817,6 +5817,7 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
+  width: 100%;
 }
 
 .carousel.pointer-event {
@@ -10889,7 +10890,7 @@ body {
 }
 
 .page-section-feedback {
-  padding: 2rem 0;
+  padding: 0rem 0;
 }
 
 .page-section-contacts {
