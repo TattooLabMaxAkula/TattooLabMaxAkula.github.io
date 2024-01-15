@@ -10,6 +10,17 @@ header:
     label: Contact us
     url: '#about'
 
+carousels:
+  - images: 
+    - image: assets/img/feedback/10.png
+    - image: assets/img/feedback/17.png
+    - image: assets/img/feedback/16.png
+    - image: assets/img/feedback/15.png 
+    - image: assets/img/feedback/14.png
+    - image: assets/img/feedback/13.png
+    - image: assets/img/feedback/38.png
+    - image: assets/img/feedback/1-1.png
+
 sections:
   - type: services.html
     section_id: services
@@ -160,8 +171,12 @@ sections:
 
 
 
- # - type: carousel_code.html
- #   section_id: carousel
+  - type: carousel.html
+    section_id: carousel
+    background_image: url('assets/img/dragon.jpg')
+    background_style: bg-dark 
+    title: Feedback from our clients
+    text: Some optional text here
 
   # - type: timeline.html
   #   section_id: timeline

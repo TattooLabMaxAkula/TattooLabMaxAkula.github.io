@@ -207,7 +207,6 @@ address {
 ol,
 ul {
   padding-left: 2rem;
-/*  list-style-image: url('../img/blood.png') */
 }
 
 ol,
@@ -10889,6 +10888,10 @@ body {
   padding: 6rem 0;
 }
 
+.page-section-feedback {
+  padding: 2rem 0;
+}
+
 .page-section-contacts {
   padding: 2rem 0;
 }
@@ -11058,3 +11061,7 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+
+/////
+
