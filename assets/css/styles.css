@@ -197,11 +197,10 @@ address {
 }
 
 .li-masters {
-  background: url('../img/blood.png') no-repeat left top; /* <-- change `left` & `top` too for extra control */
-  padding: 1px 0px 10px 35px;
-  /* reset styles (optional): */
+  background: url('../img/blood.png') no-repeat left 2px; /* <-- change `left` & `top` too for extra control */
+  padding: 0 0 1.5em 2.5em;
+    /* reset styles (optional): */
   list-style: none;
-  margin: 4;
 }
 
 ol,
@@ -669,8 +668,8 @@ progress {
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: 0px;
-  margin-right: auto;
-  margin-left: 5px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 @media (min-width: 576px) {
@@ -10902,7 +10901,7 @@ body {
 }
 
 .page-section-master {
-  padding: 1rem 0;
+  padding: 0 0;
 }
 
 .text-white-75 {

@@ -1,22 +1,24 @@
 <!-- no footer at all! -->
-<footer class="bg-img-footer py-3">
-  <div class="row px-2 px-lg-3">
+<footer class="bg-img-footer py-2">
+  <div class="container px-2 px-lg-3">
+    <div class="row justify-content-between p-0">
         <div class="col">
           <a href="#"><img src="../assets/img/new-foot.png" alt=""></a>
         </div>
-        <div class="col small text-center">
+        <div class="col small align-self-center text-center">
           {{ site.data.footer.copyright }}
         </div>
       &nbsp;
-      {% for link in site.data.footer.links %}
-        <div class="col">
+      <!-- {% for link in site.data.footer.links %}
+        <div class="col-2">
           <a href="{{ link.url }}" {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
           {% if new_window_is_not_empty %}target="_blank" rel="noopener"
           {% endif %}>{{ link.text }}</a>
         </div>
-      {% endfor %} 
-      <div class="col">
-        <a class="tel" href="tel: +7 777 7777777"> <img src="../assets/img/tel-black.png" alt="">+7 777 7777777</a>
-      </div>
+      {% endfor %}  -->
+        <div class="col text-end align-self-center">
+          <div class="badge bg-primary text-wrap"> +7 777 7777777
+        </div>
+    </div>
   </div>
 </footer>

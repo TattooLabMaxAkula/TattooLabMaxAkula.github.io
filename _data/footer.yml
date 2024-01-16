@@ -1,14 +1,14 @@
 copyright: '&copy; Start Bootstrap'
 links:
   - text: Studio
-    url: '#'
+    url: '#addres'
     new_window: false
   - text: Masters
-    url: '#'
+    url: '#masters'
     new_window: false
   - text: Portfolio
     url: '#'
     new_window: false
-  - text: Contacts
-    url: '#'
+  - text: Contact us
+    url: '#contacts'
     new_window: false

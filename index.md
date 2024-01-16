@@ -4,11 +4,11 @@ lang: in
 ref: land
 header:
   title: Painful. Expensive. Forever.
-  text: >
-    Cheers Love Get Inked With Us.
+#  text: >
+#    Cheers Love Get Inked With Us.
   action: # action button is optional
     label: Contact us
-    url: '#about'
+    url: '#contacts'
 
 carousels:
   - images: 
@@ -41,16 +41,16 @@ sections:
       - title: Made with Love
         text: You have to make your websites with love these days!
         icon: assets/img/bw/tattoo4.jpg
- #     - title: Other 1
- #       text: Some not-so long text here.
- #       icon: bi-emoji-heart-eyes
- #     - title: Other 2
- #       text: Some not-so long text here.
- #       icon: bi-emoji-sunglasses-fill
+#  #     - title: Other 1
+#  #       text: Some not-so long text here.
+#  #       icon: bi-emoji-heart-eyes
+#  #     - title: Other 2
+#  #       text: Some not-so long text here.
+#  #       icon: bi-emoji-sunglasses-fill
 
   - type: members.html
     section_id: members
- #  title: Our Crew! (members.html)
+    title: Our Crew!
     background_image: url('assets/img/black.jpg')
     background_style: bg-dark text-white
     members:
@@ -77,7 +77,7 @@ sections:
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
-    #section_id: portfolio
+    section_id: portfolio
     background_style: bg-dark text-dark
     background_image: url('assets/img/orange-2.jpg')
     title: Portfolio
@@ -172,11 +172,11 @@ sections:
 
 
   - type: carousel.html
-    section_id: carousel
+    section_id: feedback
     background_image: url('assets/img/dragon.jpg')
     background_style: bg-dark  text-white
     title: Feedback from our clients
-  #  text: Some optional text here
+    text: Some optional text here
 
   - type: timeline-red.html
     section_id: timeline
@@ -230,10 +230,10 @@ sections:
     background_style: bg-danger
     title: KEEP THE WORLD BEAUTIFUL
     text: Get Tattooed
-  #   actions:
-  #     - title: Download Now!
-  #       url: https://startbootstrap.com/themes/creative/
-  #       class: btn-light
+    actions:
+      - title: Contact Us!
+        url: \#contacts
+        class: btn-light
 
   - type: contact.html
     section_id: contacts
@@ -243,8 +243,8 @@ sections:
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: Download Now!
-      url: https://startbootstrap.com/themes/creative/
+    - title: Send
+      url: \#
       class: btn-primary
 #    actions:
 #    - title: +1 (202) 555-014

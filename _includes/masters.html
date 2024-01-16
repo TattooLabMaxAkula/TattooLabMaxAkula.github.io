@@ -1,18 +1,18 @@
 <section class="page-section-masters {{ section.background_style }}" {% if section.background_image %} style="background-image: {{ section.background_image }}"{% endif %} id="{{ section.section_id }}">
-    <div class="container-masters pt-4 overflow-hidden">
-        <div class="row justify-content-md-center" style="padding: 0px">
+    <div class="container-fluid mx-0 ">
+        <div class="row justify-content-md-center mx-0">
             <div class="col-md-5 float-left ">
                 <img src="assets/img/studio9.jpg" class="img-fluid" />
             </div>
             <div class="col-md-6 ">
-                <ul class=" mb-0">
+                <ul>
                 {% for point in section.actions %}
                     <li class="li-masters">{{ point.point }}</li>
                 {% endfor %}
                 </ul>
             </div>
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row mx-0 g-0 ">
             <img src="assets/img/word.png" class="img-fluid" />
         </div>   
     </div>

@@ -4,11 +4,11 @@ lang: it is
 ref: land
 header:
   title: Долго. Больно. Дорого.
-  text: >
-    Cheers Love Get Inked With Us.
+#  text: >
+#    Cheers Love Get Inked With Us.
   action: # action button is optional
-    label: Find Out More
-    url: '#about'
+    label: Записаться на сеанс
+    url: '#contacts'
 
 
 sections:
