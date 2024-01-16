@@ -3,10 +3,10 @@
     <h3 class="text-center mt-0">{{ section.title }}</h3>
     <hr class="divider border border-primary border-2" />
   </div>
-  <div class="container-fluid p-0 ">
-    <div class="row g-0 justify-content-between">
+  <div class="container-fluid p-0">
+    <div class="row p-0 justify-content-evenly">
       {% for proj in section.projects %}
-      <div class=" p-1 col-md-auto  bd-highlight ">
+      <div class=" p-1 col-md-auto bd-highlight ">
           <a class="portfolio-box" href="assets/img/tattoos/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
               <img class="img-fluid border border-dark" src="assets/img/tattoos/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
               <div class="portfolio-box-caption">

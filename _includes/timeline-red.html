@@ -1,7 +1,7 @@
-<section class="page-section {{ section.background_style }} pt-100 pb-100" id="experience" {% if section.background_image %} style="background-image: {{ section.background_image }}"{% endif %} id="{{ section.section_id }}">
+<section class="page-section {{ section.background_style }} pt-100-timeline pb-100-timeline" id="experience" {% if section.background_image %} style="background-image: {{ section.background_image }}"{% endif %} id="{{ section.section_id }}">
     <div class="container">
             <div class="col-xl-8 mx-auto text-center">
-                <div class="section-title">
+                <div class="section-title-timeline">
                     <h4 class="mt-0">{{ section.title }}</h4>
                     <p class="text-muted mb-5">{{ section.text }}</p>
                 </div>
@@ -9,12 +9,14 @@
         </div>
         <div class="row g-0">
            <div class="col-xl-12">
-              <ul class="timeline-list">
+              <ul class="timeline-list" style="list-style: none">
                 {% for action in section.actions %}
                  <!-- Single Experience -->
                  <li>
                     <div class="timeline_content">
-                       <span>2008</span>
+                        {% if action.point %}
+                       <span>{% cycle action.point %}</span>
+                       {% endif %}
                        <h4>{% cycle action.title %}</h4>
                        <p>{% cycle action.text %}.</p>
                     </div>

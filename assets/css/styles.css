@@ -10975,7 +10975,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #d3b894f1;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
@@ -11027,7 +11027,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
-  max-width: 1920px;
+  max-width: 1320px;
 }
 #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
   position: relative;
@@ -11065,28 +11065,29 @@ header.masthead h1, header.masthead .h1 {
 
 /////
 
-.pt-100{
+.pt-100-timeline{
   padding-top:100px;
 }
-.pb-100{
+.pb-100-timeline{
   padding-bottom:100px;
 }
-.section-title {
+.section-title-timeline {
 margin-bottom: 60px;
 }
-.section-title p {
+.section-title-timeline p {
 color: #777;
 font-size: 16px;
-}
-.section-title h4 {
+} 
+ .section-title-timeline h4 {
 text-transform: capitalize;
 font-size: 40px;
 position: relative;
 padding-bottom: 20px;
 margin-bottom: 20px;
 font-weight: 600;
-}
-.section-title h4:before {
+} 
+
+.section-title-timeline h4:before {
 position: absolute;
 content: "";
 width: 60px;
@@ -11096,7 +11097,7 @@ bottom: 0;
 left: 50%;
 margin-left: -30px;
 }
-.section-title h4:after {
+.section-title-timeline h4:after {
 position: absolute;
 background-color: #ff3636;
 content: "";
@@ -11110,7 +11111,7 @@ border-radius: 50%;
 ul.timeline-list {
 position: relative;
 margin: 0;
-padding: 0
+padding: 0 20% 0 20%;
 }
 ul.timeline-list:before {
 position: absolute;
@@ -11126,11 +11127,12 @@ top: 0;
 ul.timeline-list li {
 position: relative;
 clear: both;
-display: table;
+display: list-item flow-root;
 }
 .timeline_content {
 border: 2px solid #ff3636;
-background-color:#fff
+background-color:#D4D4D4;
+opacity: 0.8;
 }
 ul.timeline-list li .timeline_content {
 width: 45%;

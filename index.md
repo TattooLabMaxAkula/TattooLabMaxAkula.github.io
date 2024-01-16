@@ -74,6 +74,11 @@ sections:
       - point: Работали в Голландии и Англии, активно обмениваясь опытом с лушими мастерами мира, такими как Junior (Germany), Marco Fantony (Italy), Taku Oshima (Japan), Tony Loman (Holland), Henk Shifmaher (Holland), Amar (Holland), Bernie Luther (Ausria), Filip Leu (Switzerland).
       - point: Участвовали и побеждали в тату конвенциях в Малазии, России, Голландии, Англии, Непале, Германии, Индии и имеем серию наград.
       - point: По сей день творим искусство рука об руку, теперь в родном городе - Алматы.
+    buttons:
+      - title: Contact us
+        url: /#contacts
+        class: btn-danger
+
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
@@ -176,43 +181,32 @@ sections:
     background_image: url('assets/img/dragon.jpg')
     background_style: bg-dark  text-white
     title: Feedback from our clients
-    text: Some optional text here
+ #   text: Some optional text here
 
   - type: timeline-red.html
     section_id: timeline
-#    background_image: url('assets/img/black.jpg')
+    background_image: url('assets/img/dragon-black.jpg')
     title: Roadmap of our communication
     background_style: bg-dark text-primary
-  #   last_image: assets/img/timeline-end.png
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - point: First
         title: Design
-        text:  We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          Price estimation
-        text: >-
-          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          Sketching
-        text: >-
-          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          Inking
-        text: >-
-          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          Pay
-        text: >-
-          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          Healing
-        text: >-
-          We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.
+        text: We gather your business and products information. 
+      - point: Second
+        title: Price estimation
+        text: We gather your business and products information. 
+      - point: Third
+        title: Sketching
+        text: We gather your business and products information. 
+      - point: Fourth
+        title: Inking
+        text: We gather your business and products information. 
+      - point: Fifth
+        title: Pay
+        text: We gather your business and products information. 
+      - point: Sixth
+        title: Healing
+        text: We gather your business and products information. 
 
   - type: accordion.html
     section_id: faq 
@@ -228,6 +222,7 @@ sections:
   - type: call-to-action.html
     section_id: get_tattoed
     background_style: bg-danger
+    background_image: url('assets/img/dragon-red.jpg')
     title: KEEP THE WORLD BEAUTIFUL
     text: Get Tattooed
     actions:
