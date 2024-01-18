@@ -48,20 +48,20 @@ sections:
 #  #       text: Some not-so long text here.
 #  #       icon: bi-emoji-sunglasses-fill
 
-  - type: members.html
-    section_id: members
-    title: Our Crew!
-    background_image: url('assets/img/black.jpg')
-    background_style: bg-dark text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: 'links.html'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
+  # - type: members.html
+  #   section_id: members
+  #   title: Our Crew!
+  #   background_image: url('assets/img/black.jpg')
+  #   background_style: bg-dark text-white
+  #   members:
+  #     - title: Christina M. Aponte
+  #       text: Singer and Songwriter
+  #       image: assets/img/members/person1.jpg
+  #       url: 'links.html'
+  #     - title: Gary D. Stevens
+  #       text: Bass guitar.
+  #       image: assets/img/members/person2.jpg
+  #       url: '#'
   
   - type: masters.html
     section_id: masters
@@ -184,28 +184,21 @@ sections:
  #   text: Some optional text here
 
   - type: timeline-red.html
-    section_id: timeline
+    section_id: scheme
     background_image: url('assets/img/dragon-black.jpg')
     title: Roadmap of our communication
-    background_style: bg-dark text-primary
     actions:
-      - point: First
-        title: Design
+      - title: Design
         text: We gather your business and products information. 
-      - point: Second
-        title: Price estimation
+      - title: Price estimation
         text: We gather your business and products information. 
-      - point: Third
-        title: Sketching
+      - title: Sketching
         text: We gather your business and products information. 
-      - point: Fourth
-        title: Inking
+      - title: Inking
         text: We gather your business and products information. 
-      - point: Fifth
-        title: Pay
+      - title: Pay
         text: We gather your business and products information. 
-      - point: Sixth
-        title: Healing
+      - title: Healing
         text: We gather your business and products information. 
 
   - type: accordion.html

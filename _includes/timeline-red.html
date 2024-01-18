@@ -1,28 +1,16 @@
-<section class="page-section {{ section.background_style }} pt-100-timeline pb-100-timeline" id="experience" {% if section.background_image %} style="background-image: {{ section.background_image }}"{% endif %} id="{{ section.section_id }}">
+<section id="{{ section.section_id }}"  class="scheme {{ section.background_style }} " {% if section.background_image %} style="background-image: {{ section.background_image }}"{% endif %}>
     <div class="container">
-            <div class="col-xl-8 mx-auto text-center">
-                <div class="section-title-timeline">
-                    <h4 class="mt-0">{{ section.title }}</h4>
-                    <p class="text-muted mb-5">{{ section.text }}</p>
-                </div>
-            </div>
-        </div>
-        <div class="row g-0">
-           <div class="col-xl-12">
-              <ul class="timeline-list" style="list-style: none">
+        <h2 >{{ section.title }}</h2>
+        <div class="scheme-content">
+            <div class="scheme-bg"></div>
+            <div class="scheme-rows">	
                 {% for action in section.actions %}
-                 <!-- Single Experience -->
-                 <li>
-                    <div class="timeline_content">
-                        {% if action.point %}
-                       <span>{% cycle action.point %}</span>
-                       {% endif %}
-                       <h4>{% cycle action.title %}</h4>
-                       <p>{% cycle action.text %}.</p>
+                <div class="row clear">
+                    <div class="col">
+                       <p><strong>{% cycle action.title %}</strong>{% cycle action.text %}</p>
                     </div>
-                 </li>
-                 {% endfor %}
-              </ul>
+                </div>
+                {% endfor %}
            </div>
         </div>
     </div>
