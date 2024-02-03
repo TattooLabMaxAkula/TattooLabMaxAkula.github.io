@@ -11151,6 +11151,10 @@ section.scheme .row:nth-child(4) {
   margin-bottom:45px
  }
 
+ section.scheme .row:nth-child(6) {
+  padding-bottom:20px
+ }
+
 section.scheme .col {
   display:inline-block;
   width:265px;
