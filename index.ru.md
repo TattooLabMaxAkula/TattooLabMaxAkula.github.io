@@ -3,12 +3,12 @@ layout: home
 lang: it is
 ref: land
 header:
-  title: Painful. Expensive. Forever.
+  title: Больно. Дорого. Навсегда.
 #  text: >
 #    Cheers Love Get Inked With Us.
   action: # action button is optional
-    label: Contact us
-    url: '#contacts'
+    label: Связаться с нами
+    url: '/index.ru.html#contacts'
 
 carousels:
   - images: 
@@ -26,20 +26,20 @@ sections:
     section_id: services
    # background_style: bg-dark
     background_image: url('assets/img/orange.jpg')
-    title: At Your Service (services.html)
+    title: Наша студия это 
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: Это 1
+        text: Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов
         icon: assets/img/bw/tattoo1.png
         url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+      - title: Это 2
+        text: Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов
         icon: assets/img/bw/tattoo2.jpg
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Это 3
+        text: Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов
         icon: assets/img/bw/tattoo3.png
-      - title: Made with Love
-        text: You have to make your websites with love these days!
+      - title: Это 4
+        text: Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов
         icon: assets/img/bw/tattoo4.jpg
 #  #     - title: Other 1
 #  #       text: Some not-so long text here.
@@ -75,8 +75,8 @@ sections:
       - point: Участвовали и побеждали в тату конвенциях в Малазии, России, Голландии, Англии, Непале, Германии, Индии и имеем серию наград.
       - point: По сей день творим искусство рука об руку, теперь в родном городе - Алматы.
     buttons:
-      - title: Contact us
-        url: /#contacts
+      - title: Связаться
+        url: /index.ru.html#contacts
         class: btn-danger
 
 
@@ -85,81 +85,81 @@ sections:
     section_id: portfolio
     background_style: bg-dark text-dark
     background_image: url('assets/img/orange-2.jpg')
-    title: Portfolio
+    title: НАШИ РАБОТЫ
     projects:
-      - title: Project 1 
-        text: This is a very short project description.
+      - title: Работа 1 
+        text: TLorem Ipsum не только успешно пережил без заметных изменений пять веков
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: zheka2.jpg
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
+      - title: Работа 2
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: skull2-min-768x548.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
+      - title: Работа 3
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: hanyamasktattooalexshimray.jpg1-min.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
+      - title: Работа 4
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: ganesh.jpg1-min.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
+      - title: Работа 5
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: elcov.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+      - title: Работа 6
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: Zhenya-CoiFishTattoo.jpg
         url: '#'
-      - title: Project 21
-        text: This is a very short project description.
+      - title: Работа 21
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: YelcovDragonSleeveTattooUnited-1.jpg
         url: '#'
-      - title: Project 32
-        text: This is a very short project description.
+      - title: Работа 32
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: Wave-Sleeve-1.jpg
         url: '#'
-      - title: Project 42
-        text: This is a very short project description.
+      - title: Работа 42
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: UraMaya-Tattoo.jpg
         url: '#'
-      - title: Project 51
-        text: This is a very short project description.
+      - title: Работа 51
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: TibetanTigerTattoo-768x785.jpg
         url: '#'
-      - title: Project 61
-        text: This is a very short project description.
+      - title: Работа 61
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: TattooLaboratory-001.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+      - title: Работа 6
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: TattooGena-040.jpg
         url: '#'
-      - title: Project 21
-        text: This is a very short project description.
+      - title: Работа 21
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: TattooGena-040-min-1024x801.jpg
         url: '#'
-      - title: Project 32
-        text: This is a very short project description.
+      - title: Работа 32
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: SwedTattoo-217x300.jpg
         url: '#'
-      - title: Project 42
-        text: This is a very short project description.
+      - title: Работа 42
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: StrelecTattoo-768x488.jpg
         url: '#'
-      - title: Project 51
-        text: This is a very short project description.
+      - title: Работа 51
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
         url: '#'
-      - title: Project 61
-        text: This is a very short project description.
+      - title: Работа 61
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: ScullCrowTattoo.jpg
         url: '#'
-      - title: Project 51
-        text: This is a very short project description.
+      - title: Работа 51
+        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: ScullB-225x300.jpg
         url: '#'
 
@@ -167,11 +167,11 @@ sections:
     section_id: get_contacts
 #    background_image: url('assets/img/dragon.jpg')
     background_style: bg-dark text-white
-    title: Wonder to know the price?
-    text: Consult our masters online!
+    title: Есть вопросы по поводу цены? Нужен эскиз? 
+    text: Свяжитесь с нами!
     actions:
-      - title: Contact us!
-        url: '#contacts'
+      - title: Проконсульироваться!
+        url: '/index.ru.html#contacts'
         class: btn-primary
 
 
@@ -180,37 +180,37 @@ sections:
     section_id: feedback
     background_image: url('assets/img/dragon.jpg')
     background_style: bg-dark  text-white
-    title: Feedback from our clients
+    title: Отзывы клиентов
  #   text: Some optional text here
 
   - type: timeline-red.html
     section_id: scheme
     background_image: url('assets/img/dragon-black.jpg')
-    title: Roadmap of our communication
+    title: Схема нашей работы с клиентом
     actions:
-      - title: Design
-        text: We gather your business and products information. 
-      - title: Price estimation
-        text: We gather your business and products information. 
-      - title: Sketching
-        text: We gather your business and products information. 
-      - title: Inking
-        text: We gather your business and products information. 
-      - title: Pay
-        text: We gather your business and products information. 
-      - title: Healing
-        text: We gather your business and products information. 
+      - title: Обсуждение дизайна,
+        text:  концепции, согласование идей 
+      - title: Оценка стоимости,
+        text:  предоплата 
+      - title: Создание эскиза,
+        text:  подготовка скетчей, согласование 
+      - title: Проведение процедуры
+        text: от одного до нескольких сеансов в зависимости от сложности рисунка и насыщенности деталями 
+      - title: Оплата
+        text: Оплачивается каждый сеанс либо каждый час труда 
+      - title: Заживление
+        text: Рекомендации по уходу за татуировкой. Мы всегда открыты для вопросов и предоставим консультацию бесплатно
 
   - type: accordion.html
     section_id: faq 
     background_image: url('assets/img/hand.jpg')
-    title: FAQ
+    title: Часто задаваемые вопросы
     text: Lorem Ipsum
     questions:
-      - question: this is item 1
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      - question: this is item 2
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      - question: Вопрос 1
+        answer: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
+      - question: Вопрос 2
+        answer: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
 
   - type: call-to-action.html
     section_id: get_tattoed
@@ -219,48 +219,46 @@ sections:
     title: KEEP THE WORLD BEAUTIFUL
     text: Get Tattooed
     actions:
-      - title: Contact Us!
-        url: \#contacts
+      - title: Кнопка опциональная
+        url: \index.ru.html#contacts
         class: btn-light
 
   - type: contact.html
     section_id: contacts
     background_style: bg-img-skull text-primary
-    title: Let's Get In Touch!
-    text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+    #background_image: url('assets/img/dragon-red.jpg')
+    title: Нужна помощь с эскизом?
+    text: Как можно нарисовать Вашу идею? Как скорректировать дополнить найденную картинку? Оставьте заявку
     actions:
-    - title: Send
+    - title: Связаться
       url: \#
       class: btn-primary
-#    actions:
-#    - title: +1 (202) 555-014
-#      icon: bi-telephone-fill
-#    - title: E-Mail
-#      icon: bi-envelope-fill
-#      url: mailto:contact@yourwebsite.com
- #   - title: Twitter
- #     icon: bi-twitter
- #     url: '#'
- #   - title: Facebook
- #     icon: bi-facebook
- #     url: '#'
+    # - title: +1 (202) 555-014
+    #   icon: bi-telephone-fill
+    # - title: E-Mail
+    #   icon: bi-envelope-fill
+    #   url: mailto:contact@yourwebsite.com
+    # - title: Twitter
+    #   icon: bi-twitter
+    #   url: '#'
+    # - title: Facebook
+    #   icon: bi-facebook
+    #   url: '#'
 
   - type: address.html
     section_id: address
     background_style: bg-dark text-primary
-    title: Our contacts
+    title: Наши контакты
     text: Walk-ins are welcome!
     map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.1784803899586!2d-71.56614568458906!3d42.338717979188324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6335220b7c08850a!2sMarlborough%20District%20Court!5e0!3m2!1sen!2sbg!4v1583193778570!5m2!1sen!2sbg
     address:
-      title: Address
+      title: Адрес
       text: >
         45 Williams St,<br/>
         Marlborough, MA 01752,<br/>
         United States
     phone:
-      title: Phones
+      title: Телефон
       text: >
         +1 (202) 555-014<br/>
         +1 (202) 555-015
@@ -268,9 +266,14 @@ sections:
       title: Facebook
       text: >
         facebook.com
+      url: #
     instagram:
       title: Instagram
       text: >
         Instagram profile
-        
+      url: #
+    actions:
+      - title: Кнопка опциональная
+        url: \index.ru.html#contacts
+        class: btn-danger
 ---

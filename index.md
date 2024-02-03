@@ -68,15 +68,15 @@ sections:
     background_image: url('assets/img/black.jpg')
     background_style: text-white
     actions:
-      - point: Макс и Акула,художники,основавшие ТатуЛабораторию,стояли у истоков профессиональной татуировки в Алматы.
-      - point: Первую тату,выполнили в 1991 году. С тех пор совершенствуем искусство художественной татуировки.
-      - point: В 1998 году основали студию "Tattoolab Maks & Akula" в Гоа.
-      - point: Работали в Голландии и Англии, активно обмениваясь опытом с лушими мастерами мира, такими как Junior (Germany), Marco Fantony (Italy), Taku Oshima (Japan), Tony Loman (Holland), Henk Shifmaher (Holland), Amar (Holland), Bernie Luther (Ausria), Filip Leu (Switzerland).
-      - point: Участвовали и побеждали в тату конвенциях в Малазии, России, Голландии, Англии, Непале, Германии, Индии и имеем серию наград.
-      - point: По сей день творим искусство рука об руку, теперь в родном городе - Алматы.
+      - point: Text in English
+      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
+      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
+      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
+      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
+      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
     buttons:
       - title: Contact us
-        url: /#contacts
+        url: /index.html#contacts
         class: btn-danger
 
 
@@ -90,8 +90,8 @@ sections:
       - title: Project 1 
         text: This is a very short project description.
         # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
+        # img/tattoos/fullsize
+        # img/tattoos/thumbnails
         icon: zheka2.jpg
         url: '#'
       - title: Project 2
@@ -207,9 +207,9 @@ sections:
     title: FAQ
     text: Lorem Ipsum
     questions:
-      - question: this is item 1
+      - question: Question 1
         answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      - question: this is item 2
+      - question: Question 2
         answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
   - type: call-to-action.html
@@ -268,9 +268,15 @@ sections:
       title: Facebook
       text: >
         facebook.com
+      url: #
     instagram:
       title: Instagram
       text: >
         Instagram profile
+      url: #
+    actions:
+      - title: This button is adjustable 
+        url: \index.html#contacts
+        class: btn-danger
         
 ---

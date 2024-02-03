@@ -23,12 +23,13 @@
             </li>
             <li class="icon bi bi-facebook">
               <h3 class="mt-0">{{ section.facebook.title }}</h3>
-              <p>{{ section.facebook.text }}</p>
+              <a class="d-block" href="{{ section.facebook.url }}">{{ section.facebook.text }}</a>
               <li class="icon bi bi-instagram">
                 <h3 class="mt-0">{{ section.instagram.title }}</h3>
-                <p>{{ section.instagram.text }}</p>
+                <a class="d-block" href="{{ section.instagram.url }}">{{ section.instagram.text }}</a>
           </li>
         </ul>
+        {% include actions.html actions=section.actions %}
       </div>
     </div>
   </div>

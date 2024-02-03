@@ -8,25 +8,25 @@ it is: Max Akula Tattoo Studio RU
 header:
   in:
   - title: About
-    url: /#services
+    url: /index.html#services
   - title: Masters
-    url: /#members
+    url: /index.html#masters
   - title: Art
-    url: /#portfolio
+    url: /index.html#portfolio
   - title: FAQ
-    url: /#faq
+    url: /index.html#faq
   - title: Contacts
-    url: /#contacts
+    url: /index.html#contacts
   it is:
   - title: О нас
-    url: /#services
+    url: /index.ru.html#services
   - title: Мастера
-    url: /#members
+    url: /index.ru.html#masters
   - title: Работы
-    url: /#portfolio
+    url: /index.ru.html#portfolio
   - title: Вопросы
-    url: /#faq
+    url: /index.ru.html#faq
   - title: Контакты
-    url: /#contacts
+    url: /index.ru.html#contacts
 #- title: Links  # To the pages outside landing
 #  url: /links

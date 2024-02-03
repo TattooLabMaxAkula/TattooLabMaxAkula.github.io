@@ -684,7 +684,7 @@ progress {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 1100px;
   }
 }
 @media (min-width: 1200px) {
@@ -10909,8 +10909,8 @@ body {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.25rem;
-  font-size: 0.85rem;
+  padding: 1.05rem 2.05rem;
+  font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -11098,6 +11098,12 @@ header.masthead h1, header.masthead .h1 {
   padding:33px 0 87px 0
  }
 
+ body h2 {
+  font-size: 30px !important;
+  line-height: 40px !important;
+  margin-bottom: 30px !important
+}
+
 section.scheme h2 {
   color:white;
   font-weight:400;
@@ -11142,21 +11148,21 @@ section.scheme .row:nth-child(3) {
  }
 
 section.scheme .row:nth-child(4) {
-  margin-bottom:25px
+  margin-bottom:45px
  }
 
 section.scheme .col {
   display:inline-block;
   width:265px;
   padding:0 5px;
-  font-size:18px;
+  font-size:16px;
   text-align:center;
   color:white;
   line-height: normal;
  }
 section.scheme .col p {
   margin:0px;
-  line-height: normal;
+  line-height: 1.15;
  }
 section.scheme .col strong {
   font-weight:400;
@@ -11189,3 +11195,8 @@ section.scheme .col strong {
   }
 }
 
+@media (min-width: 1400px) {
+  body section.scheme .container {
+    max-width: 1120px;
+  }
+}
