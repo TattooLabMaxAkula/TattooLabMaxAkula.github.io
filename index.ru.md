@@ -216,6 +216,31 @@ sections:
         text: ''
         icon: YelcovDragonSleeveTattooUnited-1.jpg
         url: '#'
+      # Zhenya-CoiFishTattoo.jpg
+      - title: CoiFish
+        text: ''
+        icon: Zhenya-CoiFishTattoo.jpg
+        url: '#'
+      # 12244236_10153358104068823_3702503910235031050_o-min.jpg
+      - title: Iron Maiden
+        text: Iron Maiden тату сделал Макс
+        icon: 12244236_10153358104068823_3702503910235031050_o-min.jpg
+        url: '#'
+      # 12043114_10153252659508823_315163179671113862_n.jpg1-min.jpg
+      - title: Scull
+        text: Тату от Макса
+        icon: 12043114_10153252659508823_315163179671113862_n.jpg1-min.jpg
+        url: '#'
+      # 11742860_1640595592852947_6458159094695676509_n-min-768x768.jpg
+      - title: Tattoo in progress
+        text: Тату от Макса,в прцессе
+        icon: 11742860_1640595592852947_6458159094695676509_n-min-768x768.jpg
+        url: '#'
+      # 1798992_1448996795330924_20509305_o-min.jpg
+      - title: Ocean
+        text: Совмесные проэкты от Макса и Акулы
+        icon: 1798992_1448996795330924_20509305_o-min.jpg
+        url: '#'
 
       - title: Работа 1 
         text: TLorem Ipsum не только успешно пережил без заметных изменений пять веков
