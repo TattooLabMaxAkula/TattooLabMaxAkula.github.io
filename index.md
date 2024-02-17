@@ -87,6 +87,22 @@ sections:
     background_image: url('assets/img/orange-2.jpg')
     title: Portfolio
     projects:
+      - title: Akula Sleeve
+        text: Оригинальный дизайн и тату от Макса
+        icon: AkulaSleeve-1.jpg
+        url: '#'
+      - title: Albek Sleeve tattoo 
+        text: Дизайн и Тату от Макса
+        icon: AlbekSleeveTattoo.jpg
+        url: '#'
+      - title: Ganesh Tattoo Leg
+        text: Оригинальный дизайн от Акулы,тату сделано Максом за один сеанс
+        icon: GaneshTattooLeg.jpg
+        url: '#'
+      - title: Albek Tattoo
+        text: Один из 100 демонов &quot;Хориоши 3&quot;,Татуировка от Макса.
+        icon: AlbekTattoo-copy.jpg
+        url: '#'        
       - title: Project 1 
         text: This is a very short project description.
         # the images are located in:
