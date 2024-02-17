@@ -184,7 +184,8 @@ sections:
       # TattooGena-040.jpg
       - title: Gena
         text: Совместный проэкт. Дизайн от Акулы, тату сделано вместе Максом и Акулой.
-        icon: TattooGena-040.jpg
+        # icon: TattooGena-040.jpg
+        icon: TattooGena-040-min-1024x801.jpg
         url: '#'
       # TattooLaboratory-001.jpg
       - title: Tattoo Laboratory
@@ -256,6 +257,26 @@ sections:
         text: ''
         icon: 31209_397762148822_8202915_n-min.jpg
         url: '#'
+      # Untitled-1.jpg2-min-768x410.jpg
+      - title: Barong
+        text: Совместный дизайн от Макса и Акулы, тату от Макса
+        icon: Untitled-1.jpg2-min-768x410.jpg
+        url: '#'
+      # IMG_20130117_120904.jpg1-min.jpg
+      - title: Fish
+        text: Оригинальный дизайн и тату от Макса
+        icon: IMG_20130117_120904.jpg1-min.jpg
+        url: '#'
+      # Skull 2
+      - title: Skull 2
+        text: Флэш дизайн от Jack Mosher, тату сделана Максои
+        icon: skull2-min-768x548.jpg
+        url: '#'
+      # IMG_1263.jpg1-min-706x1024.jpg
+      - title: Фри-Хэнд от Акулы
+        text: ''
+        icon: IMG_1263.jpg1-min-706x1024.jpg
+        url: '#'
 
 
       - title: Работа 1 
@@ -285,10 +306,7 @@ sections:
         text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: Zhenya-CoiFishTattoo.jpg
         url: '#'
-      - title: Работа 21
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: TattooGena-040-min-1024x801.jpg
-        url: '#'
+
 
       - title: Работа 42
         text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
