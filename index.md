@@ -186,6 +186,36 @@ sections:
         text: Совместный проэкт. Дизайн от Акулы, тату сделано вместе Максом и Акулой.
         icon: TattooGena-040.jpg
         url: '#'
+      # TattooLaboratory-001.jpg
+      - title: Tattoo Laboratory
+        text: Оригинальный дизайн и тату от Макса
+        icon: TattooLaboratory-001.jpg
+        url: '#'
+      # TibetanTigerTattoo-768x785.jpg
+      - title: Tibetan Tiger
+        text: Семейный Герб, татуировка сделана Максом.
+        icon: TibetanTigerTattoo-768x785.jpg
+        url: '#'
+      # UraMaya-Tattoo.jpg
+      - title: Maya
+        text: ''
+        icon: UraMaya-Tattoo.jpg
+        url: '#'
+      # Wave-Sleeve-1.jpg
+      - title: Wave Sleeve
+        text: ''
+        icon: Wave-Sleeve-1.jpg
+        url: '#'
+      # HibiskusTattoo.jpg
+      - title: Hibiskus
+        text: Тату сделано Максом
+        icon: HibiskusTattoo.jpg
+        url: '#'
+      # YelcovDragonSleeveTattooUnited-1.jpg
+      - title: Dragon Sleeve
+        text: ''
+        icon: YelcovDragonSleeveTattooUnited-1.jpg
+        url: '#'
 
       - title: Project 1 
         text: This is a very short project description.
