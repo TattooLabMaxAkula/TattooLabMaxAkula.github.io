@@ -87,22 +87,56 @@ sections:
     background_image: url('assets/img/orange-2.jpg')
     title: НАШИ РАБОТЫ
     projects:
+      # Akula Sleeve
       - title: Akula Sleeve
         text: Оригинальный дизайн и тату от Макса
         icon: AkulaSleeve-1.jpg
         url: '#'
+      # Albek Sleeve tattoo 
       - title: Albek Sleeve tattoo 
         text: Дизайн и Тату от Макса
         icon: AlbekSleeveTattoo.jpg
         url: '#'
+      # Albek Tattoo 
+      - title: Albek Tattoo
+        text: Один из 100 демонов &quot;Хориоши 3&quot;, Татуировка от Макса.
+        icon: AlbekTattoo-copy.jpg
+        url: '#'
+      # Ganesh Tattoo Leg 
       - title: Ganesh Tattoo Leg
-        text: Оригинальный дизайн от Акулы,тату сделано Максом за один сеанс
+        text: Оригинальный дизайн от Акулы, тату сделано Максом за один сеанс
         icon: GaneshTattooLeg.jpg
         url: '#'
-      - title: Albek Tattoo
-        text: Один из 100 демонов &quot;Хориоши 3&quot;,Татуировка от Макса.
-        icon: AlbekTattoo-copy.jpg
-        url: '#'        
+      # Dragon Half-Sleeve (2010)
+      - title: Dragon Half-Sleeve (2010)
+        text: Флэш-дизайн от Savio, тату сделано Максом
+        icon: DragonHalf-Sleeve2010.jpg
+        url: '#'
+      # Dragon On The Leg Tattoo
+      - title: Dragon On The Leg
+        text: Оригинальный дизайн и тату от Макса, сделана за один сеанс.
+        icon: DragonOnTheLegTattooPS-1.jpg
+        url: '#'
+      # IMG_0012-2.jpg
+      - title: Shoulder 0012
+        text: Дизайн и татуировка от Макса
+        icon: IMG_0012-2.jpg
+        url: '#'
+      # IMG_7492.jpg
+      - title: IMG_7492.jpg
+        text: Совместный проэкт. Оригинальный дизайн от Акулы. Тату сделано Максом. Эта спина заняла...
+        icon: IMG_7492.jpg
+      # Kraft Tribal Sleeve
+      - title: Kraft Tribal Sleeve
+        icon: KraftTribalSleeve.jpg
+        text: Фри-Хэнд трайбвл тату от Макса, 4 сеанса.
+        url: '#'
+      # MaskTattooOnTheChest.jpg
+      - title: Mask tattoo on the chest
+        text: Оригинальный дизайн от Акулы, тату сделал Макс
+        icon: MaskTattooOnTheChest.jpg
+        url: '#'
+        
       - title: Работа 1 
         text: TLorem Ipsum не только успешно пережил без заметных изменений пять веков
         # the images are located in:
