@@ -287,36 +287,9 @@ sections:
         url: '#'
       - title: Работа 21
         text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: YelcovDragonSleeveTattooUnited-1.jpg
-        url: '#'
-      - title: Работа 32
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: Wave-Sleeve-1.jpg
-        url: '#'
-      - title: Работа 42
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: UraMaya-Tattoo.jpg
-        url: '#'
-      - title: Работа 51
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: TibetanTigerTattoo-768x785.jpg
-        url: '#'
-      - title: Работа 61
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: TattooLaboratory-001.jpg
-        url: '#'
-      - title: Работа 6
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: TattooGena-040.jpg
-        url: '#'
-      - title: Работа 21
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: TattooGena-040-min-1024x801.jpg
         url: '#'
-      - title: Работа 32
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: SwedTattoo-217x300.jpg
-        url: '#'
+
       - title: Работа 42
         text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: StrelecTattoo-768x488.jpg
@@ -325,10 +298,7 @@ sections:
         text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
         url: '#'
-      - title: Работа 51
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: ScullB-225x300.jpg
-        url: '#'
+
 
   - type: call-to-action.html
     section_id: get_contacts

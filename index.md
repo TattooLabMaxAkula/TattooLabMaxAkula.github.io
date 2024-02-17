@@ -286,48 +286,13 @@ sections:
         url: '#'
       - title: Project 21
         text: This is a very short project description.
-        icon: YelcovDragonSleeveTattooUnited-1.jpg
-        url: '#'
-      - title: Project 32
-        text: This is a very short project description.
-        icon: Wave-Sleeve-1.jpg
-        url: '#'
-      - title: Project 42
-        text: This is a very short project description.
-        icon: UraMaya-Tattoo.jpg
-        url: '#'
-      - title: Project 51
-        text: This is a very short project description.
-        icon: TibetanTigerTattoo-768x785.jpg
-        url: '#'
-      - title: Project 61
-        text: This is a very short project description.
-        icon: TattooLaboratory-001.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: TattooGena-040.jpg
-        url: '#'
-      - title: Project 21
-        text: This is a very short project description.
         icon: TattooGena-040-min-1024x801.jpg
-        url: '#'
-      - title: Project 32
-        text: This is a very short project description.
-        icon: SwedTattoo-217x300.jpg
-        url: '#'
-      - title: Project 42
-        text: This is a very short project description.
-        icon: StrelecTattoo-768x488.jpg
         url: '#'
       - title: Project 51
         text: This is a very short project description.
         icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
         url: '#'
-      - title: Project 51
-        text: This is a very short project description.
-        icon: ScullB-225x300.jpg
-        url: '#'
+
 
   - type: call-to-action.html
     section_id: get_contacts
