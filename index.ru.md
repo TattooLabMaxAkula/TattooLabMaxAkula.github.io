@@ -161,6 +161,31 @@ sections:
         text: Индивидуальный дизайн и тату от Макса
         icon: ScullCrowTattoo.jpg
         url: '#'
+      # ScullB-225x300.jpg
+      - title: Scull
+        text: Индивидуальный дизайн от Акулы, татуировка сделана Максом
+        icon: ScullB-225x300.jpg
+        url: '#'
+      # 12241310_10153340668953823_661284458178377688_n.jpg111.jpg
+      - title: KinDzaDza Sleeve
+        text: Рукав, на основе кинофильма &quot;Кин-Дза-Дза&quot;. Индивидуальная тату выполнено Акулой.
+        icon: 12241310_10153340668953823_661284458178377688_n.jpg111.jpg
+        url: '#'
+      # StrelecTattoo-768x488.jpg
+      - title: Strelec
+        text: Индивидуальный дизайн от Акулы, тату сделано Максом.
+        icon: StrelecTattoo-768x488.jpg
+        url: '#'
+      # SwedTattoo-217x300.jpg
+      - title: Swed
+        text: Индивидуальный дизайн от Акулы, тату от Макса.
+        icon: SwedTattoo-217x300.jpg
+        url: '#'
+      # TattooGena-040.jpg
+      - title: Gena
+        text: Совместный проэкт. Дизайн от Акулы, тату сделано вместе Максом и Акулой.
+        icon: TattooGena-040.jpg
+        url: '#'
 
       - title: Работа 1 
         text: TLorem Ipsum не только успешно пережил без заметных изменений пять веков
@@ -228,10 +253,6 @@ sections:
       - title: Работа 51
         text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
         icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
-        url: '#'
-      - title: Работа 61
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: ScullCrowTattoo.jpg
         url: '#'
       - title: Работа 51
         text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
