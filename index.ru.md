@@ -136,7 +136,32 @@ sections:
         text: Оригинальный дизайн от Акулы, тату сделал Макс
         icon: MaskTattooOnTheChest.jpg
         url: '#'
-        
+      # MindIs-EverythingTattoo-192x300.jpg
+      - title: Mind Is Everything
+        text: Скрипт и Татуировка от Макса
+        icon: MindIs-EverythingTattoo-192x300.jpg
+        url: '#'
+      # MirandaLotusseTattoo.jpg
+      - title: Miranda Lotusse
+        text: Фри-Хэнд тату от Макса.
+        icon: MirandaLotusseTattoo.jpg
+        url: '#'
+      # OmMaNePeThmeOmTattoo-1-223x300.jpg
+      - title: OmManNePeThmeOm
+        text: Татуировка сдалана Максом
+        icon: OmMaNePeThmeOmTattoo-1-223x300.jpg
+        url: '#'
+      # PatkaMoonTattoo.jpg
+      - title: Patka Moon
+        text: Оригинальный дизайн от Акулы, тату от Макса.
+        icon: PatkaMoonTattoo.jpg
+        url: '#'
+      # ScullCrowTattoo.jpg
+      - title: Scull Crow.jpg
+        text: Индивидуальный дизайн и тату от Макса
+        icon: ScullCrowTattoo.jpg
+        url: '#'
+
       - title: Работа 1 
         text: TLorem Ipsum не только успешно пережил без заметных изменений пять веков
         # the images are located in:
