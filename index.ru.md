@@ -87,6 +87,9 @@ sections:
     background_image: url('assets/img/orange-2.jpg')
     title: НАШИ РАБОТЫ
     projects:
+      # the images are located in:
+      # img/portfolio/fullsize
+      # img/portfolio/thumbnails
       # Akula Sleeve
       - title: Akula Sleeve
         text: Оригинальный дизайн и тату от Макса
@@ -277,44 +280,90 @@ sections:
         text: ''
         icon: IMG_1263.jpg1-min-706x1024.jpg
         url: '#'
-
-
-      - title: Работа 1 
-        text: TLorem Ipsum не только успешно пережил без заметных изменений пять веков
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
+      # Scull Sleeve
+      - title: Scull Sleeve
+        text: Оригинальный дизайн от Акулы.Тату сделана Максом
+        icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
+        url: '#'
+      # podsolnuhi.jpg1-min.jpg
+      - title: Подсолнухи
+        text: Оригинальный дизайн и татуировка от Акулы
+        icon: podsolnuhi.jpg1-min.jpg
+        url: '#'
+      # Ocean1-min.jpg
+      - title: Ocean
+        text: Оригинальный дизайн и тату от Акулы
+        icon: Ocean1-min.jpg
+        url: '#'
+      # zheka2.jpg
+      - title: Фри-хэнд 
+        text: Совместный прэкт, фри-хэнд тату от Макса и Акулы
         icon: zheka2.jpg
         url: '#'
-      - title: Работа 2
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: skull2-min-768x548.jpg
+      # instaImage_0-min.png
+      - title: Untitled
+        text: Тату от Макса
+        icon: instaImage_0-min.png
         url: '#'
-      - title: Работа 3
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: hanyamasktattooalexshimray.jpg1-min.jpg
+      # IMG_1042-min-579x1024.jpg
+      - title: Оригинальный дизайн от Макса 
+        text: татуировка от Акулы
+        icon: IMG_1042-min-579x1024.jpg
         url: '#'
-      - title: Работа 4
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: ganesh.jpg1-min.jpg
+      # IMG_0954.jpg1-min-210x300.jpg
+      - title: Татуировка от Акулы
+        text: ''
+        icon: IMG_0954.jpg1-min-210x300.jpg
         url: '#'
-      - title: Работа 5
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
+      # IMG_0202.jpg1_-715x1024.jpg
+      - title: за один сеанс
+        text: Оригинальный дизайн и Татуировка от Акулы. Сделана за один сеанс.
+        icon: IMG_0202.jpg1_-715x1024.jpg
+        url: '#'
+      # elcov.jpg
+      - title: Два сеанса, в процессе.
+        text: Совместный проэкт, оригинальный дизайн от Акулы, тату от Макса.
         icon: elcov.jpg
         url: '#'
-      - title: Работа 6
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: Zhenya-CoiFishTattoo.jpg
+      # IMG_0111-min-403x1024.jpg
+      - title: Флэш дизайн, татуировка от Акулы
+        text: ''
+        icon: IMG_0111-min-403x1024.jpg
         url: '#'
-
-
-      - title: Работа 42
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: StrelecTattoo-768x488.jpg
+      # IMG_0077-2.jpg1-min-768x1152.jpg
+      - title: Махатма Ганди портрет от Акулы
+        text: ''
+        icon: IMG_0077-2.jpg1-min-768x1152.jpg
         url: '#'
-      - title: Работа 51
-        text: Lorem Ipsum не только успешно пережил без заметных изменений пять веков
-        icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
+      # ganesh.jpg1-min.jpg
+      - title: Совместный проэкт, Оригинальный дизайн от Акулы 
+        text: Татуировка выполнена Максом, один сеанс. Эта татуировка выиграла 700евро на конвенции в в Голландии!
+        icon: ganesh.jpg1-min.jpg
+        url: '#'
+      # ironmaiden.jpg
+      - title: iron maiden 
+        text: с обложки&quot;Iron Maiden&quot;, тату от Макса
+        icon: ironmaiden.jpg
+        url: '#'
+      # HeartedLiliTattoo-1.jpg1-min.jpg
+      - title: Индивидуальный Дизайн и тату от Макса
+        text: сделана за один сеанс
+        icon: HeartedLiliTattoo-1.jpg1-min.jpg
+        url: '#'
+      # hanyamasktattooalexshimray.jpg1-min.jpg
+      - title: mask
+        text: Индивидуальный дизайн и тату от Макса. Татуировка сделана за 3 сеанса.
+        icon: hanyamasktattooalexshimray.jpg1-min.jpg
+        url: '#'
+      # 13401130_1054638867952395_1991192898_n.jpg1-min.jpg        
+      - title: Портрет Яковлева, татуировка от Акулы
+        text: ''
+        icon: 13401130_1054638867952395_1991192898_n.jpg1-min.jpg
+        url: '#'
+      # 12304485_10153358105993823_3453506267518648865_o-min-948x1024.jpg
+      - title: Оригинальный дизайн и тату от Акулы
+        text: Выполнена за 6 часов
+        icon: 12304485_10153358105993823_3453506267518648865_o-min-948x1024.jpg
         url: '#'
 
 
