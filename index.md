@@ -360,6 +360,11 @@ sections:
         text: Выполнена за 6 часов
         icon: 12304485_10153358105993823_3453506267518648865_o-min-948x1024.jpg
         url: '#'
+      # ganesh2.jpg
+      - title: Оригинальный дизайн и тату от Акулы
+        text: ''
+        icon: ganesh2.jpg
+        url: '#'
 
 
   - type: call-to-action.html
