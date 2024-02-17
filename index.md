@@ -80,7 +80,7 @@ sections:
         class: btn-danger
 
 
-  - type: portfolio.html
+  - type: portfolio2.html
     # this section has always ID 'portfolio'
     section_id: portfolio
     background_style: bg-dark text-dark
@@ -89,6 +89,7 @@ sections:
     projects:
       - title: Project 1 
         text: This is a very short project description.
+        category: max
         # the images are located in:
         # img/tattoos/fullsize
         # img/tattoos/thumbnails
@@ -96,6 +97,7 @@ sections:
         url: '#'
       - title: Project 2
         text: This is a very short project description.
+        category: akula
         icon: skull2-min-768x548.jpg
         url: '#'
       - title: Project 3

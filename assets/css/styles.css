@@ -11026,6 +11026,22 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+.portfolio-column {
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.show {
+  display: block;
+}
+
+
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1320px;
 }
