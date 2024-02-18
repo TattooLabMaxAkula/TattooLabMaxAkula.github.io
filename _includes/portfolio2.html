@@ -5,7 +5,7 @@
     </div>
     <div id="myBtnContainer" class="row justify-content-center">
       <div class="col md-auto text-center">
-      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn active" onclick="filterSelection('all')"> {{section.name_for_all_photos}}</button>
       {% assign cats = section.projects | map: 'category'%}
       {% assign uniq_cats = cats | uniq |compact %}
       {% for cat in uniq_cats %}

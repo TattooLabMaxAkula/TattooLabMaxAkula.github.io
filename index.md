@@ -86,6 +86,7 @@ sections:
     background_style: bg-dark text-dark
     background_image: url('assets/img/orange-2.jpg')
     title: Portfolio
+    name_for_all_photos: Show all
     projects:
       - title: Project 1 
         text: This is a very short project description.
