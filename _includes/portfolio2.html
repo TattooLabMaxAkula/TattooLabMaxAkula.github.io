@@ -3,16 +3,20 @@
       <h3 class="text-center mt-0">{{ section.title }}</h3>
       <hr class="divider border border-primary border-2" />
     </div>
-    <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  {% for cat in section.projects %}
-  <button class="btn" onclick="filterSelection('{{cat.category}}')"> {{cat.category}}</button>
-  {% endfor %}
-</div>
+    <div id="myBtnContainer" class="row justify-content-center">
+      <div class="col md-auto text-center">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      {% assign cats = section.projects | map: 'category'%}
+      {% assign uniq_cats = cats | uniq |compact %}
+      {% for cat in uniq_cats %}
+      <button class="btn" onclick="filterSelection('{{cat.tag}}')"> {{cat.name}}</button>
+      {% endfor %}
+      </div>
+    </div>
     <div class="container-fluid p-0">
       <div class="row p-0 justify-content-evenly">
         {% for proj in section.projects %}
-        <div class="portfolio-column {{proj.category}} p-1 col-md-auto bd-highlight ">
+        <div class="portfolio-column {{proj.category | map: 'tag'}} p-1 col-md-auto bd-highlight ">
             <a class="portfolio-box" href="assets/img/tattoos/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
                 <img class="img-fluid border border-dark" src="assets/img/tattoos/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
                 <div class="portfolio-box-caption">
