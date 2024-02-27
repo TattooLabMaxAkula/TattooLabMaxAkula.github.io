@@ -32,6 +32,7 @@ sections:
         text: The Biggest Tattoo Studio in Almaty. Cozy and friendly atmosphere, absolute cleanliness and designer interior, decorated with original works of masters. The studio is bright and stylish, and the air in it is filled with the exquisite aromas of the East
         icon: assets/img/bw/tattoo1.png
 
+
       - title: WE TURN CRAFT INTO ART
         text: Highly professional masters with artistic education and many years of experience, we master all the subtleties of academic drawing, the nuances of composition and anatomy. We will create for you a tattoo that is unique in its characteristics, which you have dreamed of for so long. Professionalism and love for our work give us the impetus to conquer new heights in the art of tattooing.
         icon: assets/img/bw/tattoo2.jpg
@@ -367,11 +368,17 @@ sections:
       # 13401130_1054638867952395_1991192898_n.jpg1-min.jpg        
       - title: Портрет Яковлева, татуировка от Акулы
         text: ''
+        category: 
+        - tag: akula
+          name: Akula
         icon: 13401130_1054638867952395_1991192898_n.jpg1-min.jpg
         url: '#'
       # 12304485_10153358105993823_3453506267518648865_o-min-948x1024.jpg
       - title: Оригинальный дизайн и тату от Акулы
         text: Выполнена за 6 часов
+        category: 
+        - tag: akula
+          name: Akula
         icon: 12304485_10153358105993823_3453506267518648865_o-min-948x1024.jpg
         url: '#'
       # ganesh2.jpg
