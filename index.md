@@ -446,10 +446,10 @@ sections:
     background_image: url('assets/img/dragon-red.jpg')
     title: KEEP THE WORLD BEAUTIFUL
     text: Get Tattooed
-    actions:
-      - title: Contact Us!
-        url: \#contacts
-        class: btn-light
+    # actions:
+    #   - title: Contact Us!
+    #     url: \#contacts
+    #     class: btn-light
 
   - type: contact.html
     section_id: contacts
