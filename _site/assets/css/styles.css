@@ -11062,8 +11062,49 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
+.portfolio-column {
+  display: none; /* Hide columns by default */
+}
 
-/////
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.show {
+  display: block;
+}
+
+#myBtnContainer .btn{
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  /* background-color: white; */
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+#myBtnContainer .btn:hover {
+  background-color: #7a5d03;
+}
+
+/* Add a dark background color to the active button */
+#myBtnContainer .btn.active {
+  /* background-color: #666; */
+   color: white;
+}
+
+
+#myBtnContainer .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ///// */
 
 .container {
   max-width:1170px;
