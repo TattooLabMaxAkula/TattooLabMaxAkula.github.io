@@ -70,11 +70,11 @@ sections:
     background_style: text-white
     actions:
       - point: text on english
-      - point: Макс и Акула,художники,основавшие ТатуЛабораторию, стояли у истоков профессиональной татуировки в Алматы. suscipit sagittis. 
-      - point:В 1998 году основали студию "Tattoolab Maks & Akula" в Гоа. suscipit sagittis. 
-      - point: Работали в Голландии и Англии, активно обмениваясь опытом с лушими мастерами мира, такими как Junior (Germany), Marco Fantony (Italy), Taku Oshima (Japan), Tony Loman (Holland), Henk Shifmaher (Holland), Amar (Holland), Bernie Luther (Ausria), Filip Leu (Switzerland). suscipit sagittis. 
-      - point: Участвовали и побеждали в тату конвенциях в Малазии, России, Голландии, Англии, Непале, Германии, Индии и имеем серию наград.
-      - point: По сей день творим искусство рука об руку, теперь в родном городе - Алматы.
+      - point: Max and Akula, the artists who founded TattooLaboratory, stood at the origins of professional tattooing in Almaty. suscipit sagittis.
+       - point:In 1998, they founded the studio "Tattoolab Maks & Akula" in Goa. suscipit sagittis.
+       - point: We worked in Holland and England, actively exchanging experience with the best masters of the world, such as Junior (Germany), Marco Fantony (Italy), Taku Oshima (Japan), Tony Loman (Holland), Henk Shifmaher (Holland), Amar ( Holland), Bernie Luther (Ausria), Filip Leu (Switzerland). suscipit sagittis.
+       - point: We have participated and won tattoo conventions in Malaysia, Russia, Holland, England, Nepal, Germany, India and have received a series of awards.
+       - point: To this day we create art hand in hand, now in our hometown - Almaty.
     buttons:
       - title: Contact us
         url: /index.html#contacts
