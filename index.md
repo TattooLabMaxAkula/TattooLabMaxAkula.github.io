@@ -488,16 +488,16 @@ sections:
     facebook:
       title: Facebook
       text: >
-        facebook.com
-      url: #
+        facebook.com/TattooLaboratory
+      url: https://www.facebook.com/TattooLaboratory
     instagram:
       title: Instagram
       text: >
-        Instagram profile
-      url: #
-    actions:
-      - title: This button is adjustable 
-        url: \index.html#contacts
-        class: btn-danger
+        @tattoolab_maxakula
+      url: https://www.instagram.com/tattoolab_maxakula/
+    # actions:
+    #   - title: This button is adjustable 
+    #     url: \index.html#contacts
+    #     class: btn-danger
         
 ---
