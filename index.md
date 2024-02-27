@@ -349,7 +349,7 @@ sections:
         category: 
         - tag: sec
           name: Another one
-         icon: ironmaiden.jpg
+        icon: ironmaiden.jpg
         url: '#'
       # HeartedLiliTattoo-1.jpg1-min.jpg
       - title: Индивидуальный Дизайн и тату от Макса
