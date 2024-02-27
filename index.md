@@ -88,6 +88,9 @@ sections:
     title: Portfolio
     name_for_all_photos: Show all
     projects:
+      # the images are located in:
+      # img/tattoos/fullsize
+      # img/tattoos/thumbnails
       # Akula Sleeve
       - title: Akula Sleeve
         text: Оригинальный дизайн и тату от Макса
@@ -185,7 +188,8 @@ sections:
       # TattooGena-040.jpg
       - title: Gena
         text: Совместный проэкт. Дизайн от Акулы, тату сделано вместе Максом и Акулой.
-        icon: TattooGena-040.jpg
+        # icon: TattooGena-040.jpg
+        icon: TattooGena-040-min-1024x801.jpg
         url: '#'
       # TattooLaboratory-001.jpg
       - title: Tattoo Laboratory
@@ -218,136 +222,167 @@ sections:
         icon: YelcovDragonSleeveTattooUnited-1.jpg
         url: '#'
 
-      - title: Project 1 
-        text: This is a very short project description.
+      # Zhenya-CoiFishTattoo.jpg
+      - title: CoiFish
+        text: ''
+        icon: Zhenya-CoiFishTattoo.jpg
         category: 
         - tag: maxim
           name: Max
-        icon: zheka2.jpg
         url: '#'
-        # the images are located in:
-        # img/tattoos/fullsize
-        # img/tattoos/thumbnails
-      - title: Project 2
-        text: This is a very short project description.
+      # 12244236_10153358104068823_3702503910235031050_o-min.jpg
+      - title: Iron Maiden
+        text: Iron Maiden тату сделал Макс
+        icon: 12244236_10153358104068823_3702503910235031050_o-min.jpg
         category: 
-        - tag: akula
-          name: Akula
+        - tag: maxim
+          name: Max
+        url: '#'
+      # 12043114_10153252659508823_315163179671113862_n.jpg1-min.jpg
+      - title: Scull
+        text: Тату от Макса
+        icon: 12043114_10153252659508823_315163179671113862_n.jpg1-min.jpg
+        url: '#'
+      # 11742860_1640595592852947_6458159094695676509_n-min-768x768.jpg
+      - title: Tattoo in progress
+        text: Тату от Макса,в прцессе
+        icon: 11742860_1640595592852947_6458159094695676509_n-min-768x768.jpg
+        url: '#'
+      # 1798992_1448996795330924_20509305_o-min.jpg
+      - title: Ocean
+        text: Совмесные проэкты от Макса и Акулы
+        icon: 1798992_1448996795330924_20509305_o-min.jpg
+        url: '#'
+      # 892961_10152106797353823_1467017923998175571_o-min-1024x575.jpg
+      - title: Barong (in progress)
+        text: Дизайн и Тату от Макса. Один сеанс, в процессе.
+        icon: 892961_10152106797353823_1467017923998175571_o-min-1024x575.jpg
+        url: '#'
+      # 735980_465369400186803_1223271192_o-min-768x546.jpg
+      - title: Тату от Макса
+        text: ''
+        icon: 735980_465369400186803_1223271192_o-min-768x546.jpg
+        url: '#'
+      # 31209_397762148822_8202915_n-min.jpg
+      - title: Фри-Хэнд тату от Макса
+        text: ''
+        icon: 31209_397762148822_8202915_n-min.jpg
+        url: '#'
+      # Untitled-1.jpg2-min-768x410.jpg
+      - title: Barong
+        text: Совместный дизайн от Макса и Акулы, тату от Макса
+        icon: Untitled-1.jpg2-min-768x410.jpg
+        url: '#'
+      # IMG_20130117_120904.jpg1-min.jpg
+      - title: Fish
+        text: Оригинальный дизайн и тату от Макса
+        icon: IMG_20130117_120904.jpg1-min.jpg
+        url: '#'
+      # Skull 2
+      - title: Skull 2
+        text: Флэш дизайн от Jack Mosher, тату сделана Максои
         icon: skull2-min-768x548.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        category: 
-        - tag: maxim
-          name: Max
-        icon: hanyamasktattooalexshimray.jpg1-min.jpg
+      # IMG_1263.jpg1-min-706x1024.jpg
+      - title: Фри-Хэнд от Акулы
+        text: ''
+        icon: IMG_1263.jpg1-min-706x1024.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        category: 
-        - tag: akula
-          name: Akula
-        icon: ganesh.jpg1-min.jpg
+      # Scull Sleeve
+      - title: Scull Sleeve
+        text: Оригинальный дизайн от Акулы.Тату сделана Максом
+        icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        category: 
-        - tag: maxim
-          name: Max
+      # podsolnuhi.jpg1-min.jpg
+      - title: Sunflowers
+        text: Оригинальный дизайн и татуировка от Акулы
+        icon: podsolnuhi.jpg1-min.jpg
+        url: '#'
+      # Ocean1-min.jpg
+      - title: Ocean
+        text: Оригинальный дизайн и тату от Акулы
+        icon: Ocean1-min.jpg
+        url: '#'
+      # instaImage_0-min.png
+      - title: Untitled
+        text: Тату от Макса
+        icon: instaImage_0-min.png
+        url: '#'
+      # IMG_1042-min-579x1024.jpg
+      - title: Оригинальный дизайн от Макса 
+        text: татуировка от Акулы
+        icon: IMG_1042-min-579x1024.jpg
+        url: '#'
+      # IMG_0954.jpg1-min-210x300.jpg
+      - title: Татуировка от Акулы
+        text: ''
+        icon: IMG_0954.jpg1-min-210x300.jpg
+        url: '#'
+      # IMG_0202.jpg1_-715x1024.jpg
+      - title: за один сеанс
+        text: Оригинальный дизайн и Татуировка от Акулы. Сделана за один сеанс.
+        icon: IMG_0202.jpg1_-715x1024.jpg
+        url: '#'
+      # elcov.jpg
+      - title: Два сеанса, в процессе.
+        text: Совместный проэкт, оригинальный дизайн от Акулы, тату от Макса.
         icon: elcov.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+      # IMG_0111-min-403x1024.jpg
+      - title: Флэш дизайн, татуировка от Акулы
+        text: ''
+        icon: IMG_0111-min-403x1024.jpg
+        url: '#'
+      # IMG_0077-2.jpg1-min-768x1152.jpg
+      - title: Махатма Ганди портрет от Акулы
+        text: ''
+        icon: IMG_0077-2.jpg1-min-768x1152.jpg
+        url: '#'
+      # ganesh.jpg1-min.jpg
+      - title: Совместный проэкт, Оригинальный дизайн от Акулы 
+        text: Татуировка выполнена Максом, один сеанс. Эта татуировка выиграла 700евро на конвенции в в Голландии!
+        icon: ganesh.jpg1-min.jpg
+        url: '#'
+      # ironmaiden.jpg
+      - title: iron maiden 
+        text: с обложки&quot;Iron Maiden&quot;, тату от Макса
+        category: 
+        - tag: sec
+          name: Another one
+         icon: ironmaiden.jpg
+        url: '#'
+      # HeartedLiliTattoo-1.jpg1-min.jpg
+      - title: Индивидуальный Дизайн и тату от Макса
+        text: сделана за один сеанс
+        icon: HeartedLiliTattoo-1.jpg1-min.jpg
         category: 
         - tag: another
           name: Something another
-        icon: Zhenya-CoiFishTattoo.jpg
         url: '#'
-      - title: Project 21
-        text: This is a very short project description.
+      # hanyamasktattooalexshimray.jpg1-min.jpg
+      - title: mask
+        text: Индивидуальный дизайн и тату от Макса. Татуировка сделана за 3 сеанса.
+        icon: hanyamasktattooalexshimray.jpg1-min.jpg
+        url: '#'
+      # 13401130_1054638867952395_1991192898_n.jpg1-min.jpg        
+      - title: Портрет Яковлева, татуировка от Акулы
+        text: ''
+        icon: 13401130_1054638867952395_1991192898_n.jpg1-min.jpg
+        url: '#'
+      # 12304485_10153358105993823_3453506267518648865_o-min-948x1024.jpg
+      - title: Оригинальный дизайн и тату от Акулы
+        text: Выполнена за 6 часов
+        icon: 12304485_10153358105993823_3453506267518648865_o-min-948x1024.jpg
+        url: '#'
+      # ganesh2.jpg
+      - title: Оригинальный дизайн и тату от Акулы
+        text: ''
         category: 
-        - tag: sec
-          name: Another one
-        icon: YelcovDragonSleeveTattooUnited-1.jpg
+        - tag: akula
+          name: Akula
+        icon: ganesh2.jpg
         url: '#'
-      - title: Project 32
-        category: 
-        - tag: sec
-          name: Another one
-        text: This is a very short project description.
-        icon: Wave-Sleeve-1.jpg
-        url: '#'
-      - title: Project 42
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: UraMaya-Tattoo.jpg
-        url: '#'
-      - title: Project 51
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: TibetanTigerTattoo-768x785.jpg
-        url: '#'
-      - title: Project 61
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: TattooLaboratory-001.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: TattooGena-040.jpg
-        url: '#'
-      - title: Project 21
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: TattooGena-040-min-1024x801.jpg
-        url: '#'
-      - title: Project 32
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: SwedTattoo-217x300.jpg
-        url: '#'
-      - title: Project 42
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: StrelecTattoo-768x488.jpg
-        url: '#'
-      - title: Project 51
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: ScullSleeveB.G..jpg1-min-1024x896.jpg
-        url: '#'
-
-      - title: Project 61
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: ScullCrowTattoo.jpg
-        url: '#'
-      - title: Project 51
-        text: This is a very short project description.
-        category: 
-        - tag: sec
-          name: Another one
-        icon: ScullB-225x300.jpg
-        url: '#'
+ 
 
   - type: call-to-action.html
     section_id: get_contacts
