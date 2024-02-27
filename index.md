@@ -80,7 +80,7 @@ sections:
         class: btn-danger
 
 
-  - type: portfolio2.html
+  - type: portfolio.html
     # this section has always ID 'portfolio'
     section_id: portfolio
     background_style: bg-dark text-dark
