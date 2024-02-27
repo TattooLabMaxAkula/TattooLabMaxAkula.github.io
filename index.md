@@ -70,11 +70,11 @@ sections:
     background_style: text-white
     actions:
       - point: Text in English
-      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
-      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
-      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
-      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
-      - point: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mi sit amet augue suscipit sagittis. 
+      - point: Макс и Акула,художники,основавшие ТатуЛабораторию, стояли у истоков профессиональной татуировки в Алматы. suscipit sagittis. 
+      - point:В 1998 году основали студию "Tattoolab Maks & Akula" в Гоа. suscipit sagittis. 
+      - point: Работали в Голландии и Англии, активно обмениваясь опытом с лушими мастерами мира, такими как Junior (Germany), Marco Fantony (Italy), Taku Oshima (Japan), Tony Loman (Holland), Henk Shifmaher (Holland), Amar (Holland), Bernie Luther (Ausria), Filip Leu (Switzerland). suscipit sagittis. 
+      - point: Участвовали и побеждали в тату конвенциях в Малазии, России, Голландии, Англии, Непале, Германии, Индии и имеем серию наград.
+      - point: По сей день творим искусство рука об руку, теперь в родном городе - Алматы.
     buttons:
       - title: Contact us
         url: /index.html#contacts
