@@ -1,10 +1,10 @@
 ---
 type: call-to-action.html
 section_id: get_tattoed
-lang: in
+lang: it is
 background_style: bg-danger
 background_image: url('assets/img/dragon-red.jpg')
-title: KEEP THE WORLD BEAUTIFUL
+title:  Лорем Ипсум
 text: Get Tattooed
 actions:
   - title: Contact Us!

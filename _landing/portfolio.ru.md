@@ -1,11 +1,11 @@
 ---
 type: portfolio2.html
   # this section has always ID 'portfolio'
-lang: in
+lang: it is
 section_id: portfolio
 background_style: bg-dark text-dark
 background_image: url('assets/img/orange-2.jpg')
-title: Portfolio
+title:  Лорем Ипсум
 name_for_all_photos: Show all
 projects:
   - title: Project 1

@@ -1,9 +1,9 @@
 ---
 type: timeline-red.html
-lang: in
+lang: it is
 section_id: scheme
 background_image: url('assets/img/dragon-black.jpg')
-title: Roadmap of our communication
+title:  Лорем Ипсум
 actions:
   - title: Design
     text: We gather your business and products information.

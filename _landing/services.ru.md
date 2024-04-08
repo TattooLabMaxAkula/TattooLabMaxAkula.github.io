@@ -1,13 +1,13 @@
 ---
 type: services.html
-lang: in
+lang: it is
 section_id: services
    # background_style: bg-dark
 background_image: url('assets/img/orange.jpg')
-title: At Your Service 
+title: Наш подход
 services:
-  - title: Sturdy Templates
-    text: Our templates are updated regularly so they don't break.
+  - title:  Лорем Ипсум
+    text: То же самое, но по русски.
     icon: assets/img/bw/tattoo1.png
     url: https://startbootstrap.com/
   - title: Ready to Ship

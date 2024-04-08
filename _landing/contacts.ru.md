@@ -1,9 +1,9 @@
 ---
 type: contact.html
 section_id: contacts
-lang: in
+lang: it is
 background_style: bg-img-skull text-primary
-title: Let's Get In Touch!
+title:  Лорем Ипсум
 text: >-
   Ready to start your next project with us? Give us a call or send us an email
   and we will get back to you as soon as possible!

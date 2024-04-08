@@ -20,10 +20,13 @@ layout: base
     </div>
 </header>
 
-
-{% for file in site.landing %}
-{% assign section = file %}
-{% include {{file.type}} section=section%}
+{% for s in page.sections %}
+    {% for file in site.landing %}
+    {% if s == file.slug %}
+    {% assign section = file %}
+            {% include {{file.type}} section=section%}
+    {%endif%}
+    {%endfor%}
 {% endfor %} 
 
 {{ content }}

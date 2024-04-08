@@ -1,7 +1,8 @@
 ---
-layout: home
+layout: home-collect
 lang: it is
 ref: land
+title: Лаборатория татуировки Макса и Акулы
 header:
   title: Больно. Дорого. Навсегда.
 #  text: >
@@ -9,4 +10,14 @@ header:
   action: # action button is optional
     label: Связаться с нами
     url: '/index.ru.html#contacts'
+sections:
+  - services.ru
+  - masters.ru
+  - portfolio.ru
+  - call-to-action.ru
+  - timeline.ru
+  - accordion.ru
+  - call-to-red.ru
+  - contacts.ru
+  - address.ru
 ---
