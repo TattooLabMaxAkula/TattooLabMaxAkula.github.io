@@ -22,3 +22,9 @@ exclude:
   - Gemfile.lock
   - build-in-docker.sh
   - README.md
+
+# Trying to render collections
+
+collections:
+  landing:
+   output: true
