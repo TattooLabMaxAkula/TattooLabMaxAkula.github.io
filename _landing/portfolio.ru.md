@@ -3,8 +3,8 @@ type: portfolio2.html
   # this section has always ID 'portfolio'
 lang: it is
 section_id: portfolio
-background_style: bg-dark text-dark
-background_image: url('assets/img/orange-2.jpg')
+background_style: bg-dark text-white
+#background_image: url('assets/img/orange-2.jpg')
 title:  Лорем Ипсум
 name_for_all_photos: Show all
 projects:

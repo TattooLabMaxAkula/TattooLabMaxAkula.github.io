@@ -3,10 +3,18 @@
 
 @charset "utf-8";
 
+/* Add your @font-face setting the url path */
+@font-face {
+    font-family: "trajanpro";
+    src: url("../fonts/trajanpro.otf") format("opentype");
+    }
+
+$base-font-family: "trajanpro" !default;
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "member-box",
-    //    "gallery",
+        //"font_switch",
         "page",
         "icons",
         "carousel"

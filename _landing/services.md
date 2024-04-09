@@ -2,21 +2,20 @@
 type: services.html
 lang: in
 section_id: services
-   # background_style: bg-dark
-background_image: url('assets/img/orange.jpg')
-title: At Your Service 
+background_style: bg-danger
+#background_image: url('assets/img/orange.jpg')
+#title: At Your Service 
 services:
-  - title: Sturdy Templates
-    text: Our templates are updated regularly so they don't break.
+  - title: 
+    text: 
     icon: assets/img/bw/tattoo1.png
-    url: https://startbootstrap.com/
-  - title: Ready to Ship
-    text: You can use this theme as is, or you can make changes!
+  - title: 
+    text: 
     icon: assets/img/bw/tattoo2.jpg
-  - title: Up to Date
-    text: We update dependencies to keep things fresh.
+  - title: 
+    text: 
     icon: assets/img/bw/tattoo3.png
-  - title: Made with Love
-    text: You have to make your websites with love these days!
+  - title: 
+    text: 
     icon: assets/img/bw/tattoo4.jpg
 ---
