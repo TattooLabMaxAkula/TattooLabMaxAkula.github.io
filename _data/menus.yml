@@ -8,24 +8,24 @@ it is: Тату лаборатория Макса и Акулы
 header:
   in:
   - title: About
-    url: /index.html#services
-  - title: Masters
     url: /index.html#masters
+#  - title: Masters
+#    url: /index.html#masters
   - title: Art
     url: /index.html#portfolio
-  - title: FAQ
-    url: /index.html#faq
+#  - title: FAQ
+#    url: /index.html#faq
   - title: Contacts
     url: /index.html#contacts
   it is:
   - title: О нас
-    url: /index.ru.html#services.ru
-  - title: Мастера
     url: /index.ru.html#masters.ru
+ # - title: Мастера
+ #   url: /index.ru.html#masters.ru
   - title: Работы
     url: /index.ru.html#portfolio.ru
-  - title: Вопросы
-    url: /index.ru.html#faq.ru
+#  - title: Вопросы
+#    url: /index.ru.html#faq.ru
   - title: Контакты
     url: /index.ru.html#contacts.ru
 #- title: Links  # To the pages outside landing
