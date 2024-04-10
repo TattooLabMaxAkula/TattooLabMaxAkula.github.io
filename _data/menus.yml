@@ -16,7 +16,7 @@ header:
 #  - title: FAQ
 #    url: /index.html#faq
   - title: Contacts
-    url: /index.html#contacts
+    url: /index.html#address
   it is:
   - title: О нас
     url: /index.ru.html#masters
@@ -27,6 +27,6 @@ header:
 #  - title: Вопросы
 #    url: /index.ru.html#faq.ru
   - title: Контакты
-    url: /index.ru.html#contacts
+    url: /index.ru.html#address
 #- title: Links  # To the pages outside landing
 #  url: /links

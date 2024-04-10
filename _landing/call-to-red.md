@@ -8,6 +8,6 @@ title: KEEP THE WORLD BEAUTIFUL
 text: Get Tattooed
 actions:
   - title: Contact Us!
-    url: \#contacts
+    url: \#address
     class: btn-light
 ---

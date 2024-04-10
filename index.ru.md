@@ -9,7 +9,7 @@ header:
 #    Cheers Love Get Inked With Us.
   action: # action button is optional
     label: Связаться с нами
-    url: '/index.ru.html#contacts'
+    url: '/index.ru.html#address.ru'
 sections:
   - services.ru
   - masters.ru
@@ -18,6 +18,6 @@ sections:
   - timeline.ru
   - accordion.ru
   - call-to-red.ru
-  - contacts.ru
+ # - contacts.ru
   - address.ru
 ---
