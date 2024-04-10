@@ -19,14 +19,14 @@ header:
     url: /index.html#contacts
   it is:
   - title: О нас
-    url: /index.ru.html#masters.ru
+    url: /index.ru.html#masters
  # - title: Мастера
  #   url: /index.ru.html#masters.ru
   - title: Работы
-    url: /index.ru.html#portfolio.ru
+    url: /index.ru.html#portfolio
 #  - title: Вопросы
 #    url: /index.ru.html#faq.ru
   - title: Контакты
-    url: /index.ru.html#contacts.ru
+    url: /index.ru.html#contacts
 #- title: Links  # To the pages outside landing
 #  url: /links

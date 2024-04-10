@@ -1,11 +1,5 @@
 <section class="page-section {{ section.background_style }}" {% if section.background_image %} style="background-image: {{ section.background_image }}"{% endif %} id="{{ section.section_id }}">
   <div class="container px-4 px-lg-5">
-    <div class="row gx-4 gx-lg-5 align-items-center justify-content-center text-center">
-      <div class="col-lg-8 align-self-end">
-        <img src="assets/img/akula.png" class="img-fluid" />
-        <hr class="divider border border-primary border-2" />
-      </div>
-    </div>
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <!-- {#% assign cols = section.size | at_most: 4 %#} -->
       {% assign cols = section.services.size | at_most: 4 %}

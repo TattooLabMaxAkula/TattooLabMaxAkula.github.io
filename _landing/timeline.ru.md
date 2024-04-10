@@ -3,18 +3,18 @@ type: timeline-red.html
 lang: it is
 section_id: scheme
 background_image: url('assets/img/dragon-black.jpg')
-title:  Лорем Ипсум
+title: Схема нашей работы с клиентом
 actions:
-  - title: Design
-    text: We gather your business and products information.
-  - title: Price estimation
-    text: We gather your business and products information.
-  - title: Sketching
-    text: We gather your business and products information.
-  - title: Inking
-    text: We gather your business and products information.
-  - title: Pay
-    text: We gather your business and products information.
-  - title: Healing
-    text: We gather your business and products information.
+  - title: Обсуждение дизайна,
+    text:  концепции, согласование идей 
+  - title: Оценка стоимости,
+    text:  предоплата 
+  - title: Создание эскиза,
+    text:  подготовка скетчей, согласование 
+  - title: Проведение процедуры
+    text: от одного до нескольких сеансов в зависимости от сложности рисунка и насыщенности деталями 
+  - title: Оплата
+    text: Оплачивается каждый сеанс либо каждый час труда 
+  - title: Заживление
+    text: Рекомендации по уходу за татуировкой. Мы всегда открыты для вопросов и предоставим консультацию бесплатно
 ---
