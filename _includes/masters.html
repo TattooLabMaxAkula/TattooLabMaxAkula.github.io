@@ -8,12 +8,10 @@
                 <div class="col py-5 justify-content-center align-items-center text-center">
                 <img src="assets/img/akula-white.png" class="img-fluid" />
                 </div>
-                <ul>
                 {% for point in section.actions %}
-                    <li class="li-masters">{{ point.point }}</li>
+                    <p class="p-masters">{{ point.point }}</p>
+                    <br />
                 {% endfor %}
-                </ul>
-                {% include actions.html actions=section.buttons %}
             </div>
         </div>
         <!-- <div class="row mx-0 g-0 ">

@@ -208,6 +208,15 @@ address {
   text-align: justify;
 }
 
+.p-masters {
+  padding: 0 0 1.5em 2.5em;
+    /* reset styles (optional): */
+  list-style: none;
+  line-height: 2.5;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
 ol,
 ul {
   padding-left: 0;
@@ -10890,8 +10899,16 @@ body {
 }
 
 .page-section {
-  padding-top: 0 0;
+  padding-top: 0;
   padding-bottom: 6rem;
+}
+
+#faq {
+  padding-top: 2rem;
+}
+
+#get_tattoed {
+  padding: 6rem;
 }
 
 .page-section-feedback {

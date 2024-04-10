@@ -7,7 +7,7 @@ background_image: url('assets/img/dragon-red.jpg')
 title:  KEEP THE WORLD BEAUTIFUL
 text: Get Tattooed
 actions:
-  - title: Contact Us!
+  - title: Контакты
     url: \indes.ru.html#address
     class: btn-light
 ---

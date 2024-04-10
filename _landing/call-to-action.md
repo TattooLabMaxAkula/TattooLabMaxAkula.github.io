@@ -8,6 +8,6 @@ title: Wonder to know the price?
 text: Consult our masters online!
 actions:
   - title: Contact us!
-    url: '#contacts'
+    url: '#address'
     class: btn-primary
 ---
