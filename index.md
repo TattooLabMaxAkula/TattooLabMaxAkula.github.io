@@ -16,7 +16,7 @@ sections:
   - portfolio
   - call-to-action
   - timeline
-  - accordion
+ # - accordion
   - call-to-red
  # - contacts
   - address

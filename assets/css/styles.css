@@ -208,6 +208,10 @@ address {
   text-align: justify;
 }
 
+.page-section-masters {
+  padding-top: 2em;
+}
+
 .p-masters {
   padding: 0 0 1.5em 2.5em;
     /* reset styles (optional): */
