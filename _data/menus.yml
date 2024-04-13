@@ -3,30 +3,30 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 in: Max Akula Tattoo Studio
-it is: Max Akula Tattoo Studio RU
+it is: Тату лаборатория Макса и Акулы
 
 header:
   in:
   - title: About
-    url: /index.html#services
-  - title: Masters
     url: /index.html#masters
+#  - title: Masters
+#    url: /index.html#masters
   - title: Art
     url: /index.html#portfolio
-  - title: FAQ
-    url: /index.html#faq
+#  - title: FAQ
+#    url: /index.html#faq
   - title: Contacts
-    url: /index.html#contacts
+    url: /index.html#address
   it is:
   - title: О нас
-    url: /index.ru.html#services
-  - title: Мастера
     url: /index.ru.html#masters
+ # - title: Мастера
+ #   url: /index.ru.html#masters.ru
   - title: Работы
     url: /index.ru.html#portfolio
-  - title: Вопросы
-    url: /index.ru.html#faq
+#  - title: Вопросы
+#    url: /index.ru.html#faq.ru
   - title: Контакты
-    url: /index.ru.html#contacts
+    url: /index.ru.html#address
 #- title: Links  # To the pages outside landing
 #  url: /links

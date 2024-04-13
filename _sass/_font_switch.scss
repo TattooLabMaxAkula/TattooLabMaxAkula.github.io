@@ -1,0 +1,9 @@
+$base-font-family: “trajanpro” !default;
+
+$font-path: "../assets/fonts" !default;
+@font-face {
+    font-family: 'Trajan Pro';
+    src: local("Trajan Pro 3 Regular"), local("Trajan Pro"), local("trajanpro"), url('../assets/fonts/trajanpro.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}

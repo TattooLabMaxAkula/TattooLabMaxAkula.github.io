@@ -24,3 +24,8 @@ exclude:
   - README.md
   - vendor
   - bundle
+
+# Trying to render collections
+
+collections:
+ - landing
