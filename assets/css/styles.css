@@ -213,7 +213,7 @@ address {
 }
 
 .p-masters {
-  padding: 0 0 1.5em 2.5em;
+  padding: 0 0 1.5em 0.5em;
     /* reset styles (optional): */
   list-style: none;
   text-align: justify;
@@ -8869,6 +8869,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .p-masters {
+    padding: 0 0 1.5em 2.5em;
+  }
   .float-md-start {
     float: left !important;
   }
