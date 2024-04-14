@@ -4668,6 +4668,11 @@ textarea.form-control-lg {
   top: -1px;
 }
 
+.badge a {
+  color: var(--bs-badge-color);
+  text-decoration: none;
+}
+
 .alert {
   --bs-alert-bg: transparent;
   --bs-alert-padding-x: 1rem;

@@ -9,9 +9,9 @@ map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51584.740450960984!2d
 address:
   title: Адрес
   text: >
-    H.N.294/5 Bamon Vado,<br/>       
-    Oxel, Siolim, Goa 403517<br/>
-    India
+      H.N.294/5 Bamon Vado,<br/>
+      Oxel, Siolim, Goa 403517<br/>
+      India
 phone:
   title: Телефон
   text: >
