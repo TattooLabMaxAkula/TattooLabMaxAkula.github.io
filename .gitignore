@@ -1,0 +1,6 @@
+_site
+vendor/bundle
+.bundle
+*.bak
+*.orig
+
