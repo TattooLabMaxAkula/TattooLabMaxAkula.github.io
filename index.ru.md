@@ -16,7 +16,7 @@ sections:
   - portfolio.ru
   - call-to-action.ru
   - timeline.ru
-  - accordion.ru
+ # - accordion.ru
   - call-to-red.ru
  # - contacts.ru
   - address.ru
